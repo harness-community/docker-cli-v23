@@ -3,7 +3,7 @@ package command
 import (
 	"io"
 
-	"github.com/docker/cli/cli/streams"
+	"github.com/DevanshMathur19/cli-v23/cli/streams"
 )
 
 // InStream is an input stream used by the DockerCli to read user input

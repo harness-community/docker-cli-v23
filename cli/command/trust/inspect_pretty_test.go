@@ -7,9 +7,9 @@ import (
 	"io"
 	"testing"
 
-	"github.com/docker/cli/cli/trust"
-	"github.com/docker/cli/internal/test"
-	notaryfake "github.com/docker/cli/internal/test/notary"
+	"github.com/DevanshMathur19/cli-v23/cli/trust"
+	"github.com/DevanshMathur19/cli-v23/internal/test"
+	notaryfake "github.com/DevanshMathur19/cli-v23/internal/test/notary"
 	"github.com/docker/docker/api/types"
 	apiclient "github.com/docker/docker/client"
 	"github.com/theupdateframework/notary"

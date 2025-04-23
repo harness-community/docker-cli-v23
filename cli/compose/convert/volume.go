@@ -3,7 +3,7 @@ package convert
 import (
 	"strings"
 
-	composetypes "github.com/docker/cli/cli/compose/types"
+	composetypes "github.com/DevanshMathur19/cli-v23/cli/compose/types"
 	"github.com/docker/docker/api/types/mount"
 	"github.com/pkg/errors"
 )

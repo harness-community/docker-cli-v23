@@ -13,8 +13,8 @@ import (
 	"strings"
 	"time"
 
-	"github.com/docker/cli/cli/compose/loader"
-	"github.com/docker/cli/opts"
+	"github.com/DevanshMathur19/cli-v23/cli/compose/loader"
+	"github.com/DevanshMathur19/cli-v23/opts"
 	"github.com/docker/docker/api/types/container"
 	mounttypes "github.com/docker/docker/api/types/mount"
 	networktypes "github.com/docker/docker/api/types/network"

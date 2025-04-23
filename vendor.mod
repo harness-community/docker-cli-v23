@@ -1,4 +1,4 @@
-module github.com/docker/cli
+module github.com/DevanshMathur19/cli-v23
 
 // 'vendor.mod' enables use of 'go mod vendor' to managed 'vendor/' directory.
 // There is no 'go.mod' file, as that would imply opting in for all the rules

@@ -4,7 +4,7 @@ import (
 	"reflect"
 	"testing"
 
-	"github.com/docker/cli/cli/compose/types"
+	"github.com/DevanshMathur19/cli-v23/cli/compose/types"
 	"github.com/imdario/mergo"
 	"gotest.tools/v3/assert"
 )

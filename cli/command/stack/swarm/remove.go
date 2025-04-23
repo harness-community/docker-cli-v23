@@ -6,8 +6,8 @@ import (
 	"sort"
 	"strings"
 
-	"github.com/docker/cli/cli/command"
-	"github.com/docker/cli/cli/command/stack/options"
+	"github.com/DevanshMathur19/cli-v23/cli/command"
+	"github.com/DevanshMathur19/cli-v23/cli/command/stack/options"
 	"github.com/docker/docker/api/types"
 	"github.com/docker/docker/api/types/swarm"
 	"github.com/docker/docker/api/types/versions"

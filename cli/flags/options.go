@@ -5,8 +5,8 @@ import (
 	"os"
 	"path/filepath"
 
-	"github.com/docker/cli/cli/config"
-	"github.com/docker/cli/opts"
+	"github.com/DevanshMathur19/cli-v23/cli/config"
+	"github.com/DevanshMathur19/cli-v23/opts"
 	"github.com/docker/docker/client"
 	"github.com/docker/go-connections/tlsconfig"
 	"github.com/sirupsen/logrus"

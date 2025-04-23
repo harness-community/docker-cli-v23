@@ -4,11 +4,11 @@ import (
 	"fmt"
 	"testing"
 
-	"github.com/docker/cli/cli/command"
-	"github.com/docker/cli/cli/config/configfile"
-	"github.com/docker/cli/cli/context/docker"
-	"github.com/docker/cli/cli/context/store"
-	"github.com/docker/cli/internal/test"
+	"github.com/DevanshMathur19/cli-v23/cli/command"
+	"github.com/DevanshMathur19/cli-v23/cli/config/configfile"
+	"github.com/DevanshMathur19/cli-v23/cli/context/docker"
+	"github.com/DevanshMathur19/cli-v23/cli/context/store"
+	"github.com/DevanshMathur19/cli-v23/internal/test"
 	"gotest.tools/v3/assert"
 )
 

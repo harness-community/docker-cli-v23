@@ -8,8 +8,8 @@ import (
 	"strings"
 	"sync"
 
-	"github.com/docker/cli/cli/command"
-	"github.com/docker/cli/cli/config"
+	"github.com/DevanshMathur19/cli-v23/cli/command"
+	"github.com/DevanshMathur19/cli-v23/cli/config"
 	"github.com/fvbommel/sortorder"
 	"github.com/spf13/cobra"
 	"golang.org/x/sync/errgroup"

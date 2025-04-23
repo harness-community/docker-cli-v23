@@ -3,7 +3,7 @@ package credentials
 import (
 	"strings"
 
-	"github.com/docker/cli/cli/config/types"
+	"github.com/DevanshMathur19/cli-v23/cli/config/types"
 )
 
 type store interface {

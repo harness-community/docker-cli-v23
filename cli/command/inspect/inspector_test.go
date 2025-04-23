@@ -5,7 +5,7 @@ import (
 	"strings"
 	"testing"
 
-	"github.com/docker/cli/templates"
+	"github.com/DevanshMathur19/cli-v23/templates"
 	"gotest.tools/v3/assert"
 	is "gotest.tools/v3/assert/cmp"
 )

@@ -7,8 +7,8 @@ import (
 	"strings"
 	"text/template"
 
-	"github.com/docker/cli/cli"
-	"github.com/docker/cli/templates"
+	"github.com/DevanshMathur19/cli-v23/cli"
+	"github.com/DevanshMathur19/cli-v23/templates"
 	"github.com/pkg/errors"
 	"github.com/sirupsen/logrus"
 )

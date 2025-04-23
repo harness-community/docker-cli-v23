@@ -5,7 +5,7 @@ import (
 	"path/filepath"
 	"time"
 
-	"github.com/docker/cli/cli/compose/types"
+	"github.com/DevanshMathur19/cli-v23/cli/compose/types"
 )
 
 func fullExampleConfig(workingDir, homeDir string) *types.Config {

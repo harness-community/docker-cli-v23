@@ -11,8 +11,8 @@ import (
 	"sort"
 	"testing"
 
-	"github.com/docker/cli/cli/streams"
-	"github.com/docker/cli/internal/test"
+	"github.com/DevanshMathur19/cli-v23/cli/streams"
+	"github.com/DevanshMathur19/cli-v23/internal/test"
 	"github.com/docker/docker/api/types"
 	"github.com/docker/docker/pkg/archive"
 	"github.com/google/go-cmp/cmp"

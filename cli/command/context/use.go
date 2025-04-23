@@ -4,8 +4,8 @@ import (
 	"fmt"
 	"os"
 
-	"github.com/docker/cli/cli/command"
-	"github.com/docker/cli/cli/context/store"
+	"github.com/DevanshMathur19/cli-v23/cli/command"
+	"github.com/DevanshMathur19/cli-v23/cli/context/store"
 	"github.com/docker/docker/client"
 	"github.com/spf13/cobra"
 )

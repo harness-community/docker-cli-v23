@@ -3,7 +3,7 @@ package plugin
 import (
 	"strings"
 
-	"github.com/docker/cli/cli/command/formatter"
+	"github.com/DevanshMathur19/cli-v23/cli/command/formatter"
 	"github.com/docker/docker/api/types"
 	"github.com/docker/docker/pkg/stringid"
 )

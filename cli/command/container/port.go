@@ -8,9 +8,9 @@ import (
 	"strconv"
 	"strings"
 
-	"github.com/docker/cli/cli"
-	"github.com/docker/cli/cli/command"
-	"github.com/docker/cli/cli/command/completion"
+	"github.com/DevanshMathur19/cli-v23/cli"
+	"github.com/DevanshMathur19/cli-v23/cli/command"
+	"github.com/DevanshMathur19/cli-v23/cli/command/completion"
 	"github.com/docker/go-connections/nat"
 	"github.com/fvbommel/sortorder"
 	"github.com/pkg/errors"

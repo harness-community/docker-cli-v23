@@ -5,10 +5,10 @@ import (
 	"io"
 	"testing"
 
-	"github.com/docker/cli/cli/config/configfile"
-	"github.com/docker/cli/internal/test"
-	. "github.com/docker/cli/internal/test/builders" // Import builders to get the builder function as package function
-	"github.com/docker/cli/opts"
+	"github.com/DevanshMathur19/cli-v23/cli/config/configfile"
+	"github.com/DevanshMathur19/cli-v23/internal/test"
+	. "github.com/DevanshMathur19/cli-v23/internal/test/builders" // Import builders to get the builder function as package function
+	"github.com/DevanshMathur19/cli-v23/opts"
 	"github.com/docker/docker/api/types"
 	"gotest.tools/v3/assert"
 	is "gotest.tools/v3/assert/cmp"

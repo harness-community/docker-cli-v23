@@ -5,4 +5,4 @@
 
 package main
 
-import _ "github.com/docker/cli/cli/winresources"
+import _ "github.com/DevanshMathur19/cli-v23/cli/winresources"

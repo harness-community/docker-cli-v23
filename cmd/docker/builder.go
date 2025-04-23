@@ -7,8 +7,8 @@ import (
 	"strconv"
 	"strings"
 
-	pluginmanager "github.com/docker/cli/cli-plugins/manager"
-	"github.com/docker/cli/cli/command"
+	pluginmanager "github.com/DevanshMathur19/cli-v23/cli-plugins/manager"
+	"github.com/DevanshMathur19/cli-v23/cli/command"
 	"github.com/pkg/errors"
 	"github.com/spf13/cobra"
 	"github.com/spf13/pflag"

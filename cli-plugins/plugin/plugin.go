@@ -6,10 +6,10 @@ import (
 	"os"
 	"sync"
 
-	"github.com/docker/cli/cli"
-	"github.com/docker/cli/cli-plugins/manager"
-	"github.com/docker/cli/cli/command"
-	"github.com/docker/cli/cli/connhelper"
+	"github.com/DevanshMathur19/cli-v23/cli"
+	"github.com/DevanshMathur19/cli-v23/cli-plugins/manager"
+	"github.com/DevanshMathur19/cli-v23/cli/command"
+	"github.com/DevanshMathur19/cli-v23/cli/connhelper"
 	"github.com/docker/docker/client"
 	"github.com/spf13/cobra"
 )

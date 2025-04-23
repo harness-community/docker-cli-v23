@@ -7,10 +7,10 @@ import (
 	"sort"
 	"strings"
 
-	pluginmanager "github.com/docker/cli/cli-plugins/manager"
-	"github.com/docker/cli/cli/command"
-	"github.com/docker/cli/cli/config"
-	cliflags "github.com/docker/cli/cli/flags"
+	pluginmanager "github.com/DevanshMathur19/cli-v23/cli-plugins/manager"
+	"github.com/DevanshMathur19/cli-v23/cli/command"
+	"github.com/DevanshMathur19/cli-v23/cli/config"
+	cliflags "github.com/DevanshMathur19/cli-v23/cli/flags"
 	"github.com/docker/docker/pkg/homedir"
 	"github.com/docker/docker/registry"
 	"github.com/fvbommel/sortorder"
@@ -63,7 +63,7 @@ func setupCommonRootCommand(rootCmd *cobra.Command) (*cliflags.ClientOptions, *p
 
 	rootCmd.Annotations = map[string]string{
 		"additionalHelp":      "For more help on how to use Docker, head to https://docs.docker.com/go/guides/",
-		"docs.code-delimiter": `"`, // https://github.com/docker/cli-docs-tool/blob/77abede22166eaea4af7335096bdcedd043f5b19/annotation/annotation.go#L20-L22
+		"docs.code-delimiter": `"`, // https://github.com/DevanshMathur19/cli-v23-docs-tool/blob/77abede22166eaea4af7335096bdcedd043f5b19/annotation/annotation.go#L20-L22
 	}
 
 	// Configure registry.CertsDir() when running in rootless-mode

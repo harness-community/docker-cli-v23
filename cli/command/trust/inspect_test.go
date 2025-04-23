@@ -4,9 +4,9 @@ import (
 	"io"
 	"testing"
 
-	"github.com/docker/cli/cli/trust"
-	"github.com/docker/cli/internal/test"
-	"github.com/docker/cli/internal/test/notary"
+	"github.com/DevanshMathur19/cli-v23/cli/trust"
+	"github.com/DevanshMathur19/cli-v23/internal/test"
+	"github.com/DevanshMathur19/cli-v23/internal/test/notary"
 	"github.com/theupdateframework/notary/client"
 	"gotest.tools/v3/assert"
 	"gotest.tools/v3/golden"

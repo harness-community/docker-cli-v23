@@ -5,10 +5,10 @@ import (
 	"testing"
 	"time"
 
-	"github.com/docker/cli/cli/command/formatter"
-	"github.com/docker/cli/cli/command/idresolver"
-	"github.com/docker/cli/internal/test"
-	. "github.com/docker/cli/internal/test/builders" // Import builders to get the builder function as package function
+	"github.com/DevanshMathur19/cli-v23/cli/command/formatter"
+	"github.com/DevanshMathur19/cli-v23/cli/command/idresolver"
+	"github.com/DevanshMathur19/cli-v23/internal/test"
+	. "github.com/DevanshMathur19/cli-v23/internal/test/builders" // Import builders to get the builder function as package function
 	"github.com/docker/docker/api/types"
 	"github.com/docker/docker/api/types/swarm"
 	"gotest.tools/v3/assert"
