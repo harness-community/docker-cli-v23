@@ -7,7 +7,7 @@ import (
 	"strconv"
 	"strings"
 
-	swarmtypes "github.com/docker/docker/api/types/swarm"
+	swarmtypes "github.com/DevanshMathur19/docker-v23/api/types/swarm"
 )
 
 // SecretOpt is a Value type for parsing secrets

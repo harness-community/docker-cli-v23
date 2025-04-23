@@ -12,7 +12,7 @@ import (
 	"github.com/DevanshMathur19/docker-cli-v23/cli/command/stack/swarm"
 	flagsHelper "github.com/DevanshMathur19/docker-cli-v23/cli/flags"
 	cliopts "github.com/DevanshMathur19/docker-cli-v23/opts"
-	swarmtypes "github.com/docker/docker/api/types/swarm"
+	swarmtypes "github.com/DevanshMathur19/docker-v23/api/types/swarm"
 	"github.com/fvbommel/sortorder"
 	"github.com/spf13/cobra"
 	"github.com/spf13/pflag"

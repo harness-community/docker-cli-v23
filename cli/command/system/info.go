@@ -16,9 +16,9 @@ import (
 	"github.com/DevanshMathur19/docker-cli-v23/cli/debug"
 	flagsHelper "github.com/DevanshMathur19/docker-cli-v23/cli/flags"
 	"github.com/DevanshMathur19/docker-cli-v23/templates"
-	"github.com/docker/docker/api/types"
-	"github.com/docker/docker/api/types/swarm"
-	"github.com/docker/docker/api/types/versions"
+	"github.com/DevanshMathur19/docker-v23/api/types"
+	"github.com/DevanshMathur19/docker-v23/api/types/swarm"
+	"github.com/DevanshMathur19/docker-v23/api/types/versions"
 	"github.com/docker/go-units"
 	"github.com/spf13/cobra"
 )

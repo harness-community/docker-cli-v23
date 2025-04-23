@@ -9,8 +9,8 @@ import (
 	"testing"
 
 	"github.com/DevanshMathur19/docker-cli-v23/internal/test"
-	"github.com/docker/docker/api/types"
-	"github.com/docker/docker/errdefs"
+	"github.com/DevanshMathur19/docker-v23/api/types"
+	"github.com/DevanshMathur19/docker-v23/errdefs"
 	"gotest.tools/v3/assert"
 )
 

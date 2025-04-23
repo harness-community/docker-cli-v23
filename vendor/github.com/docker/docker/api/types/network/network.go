@@ -1,6 +1,6 @@
-package network // import "github.com/docker/docker/api/types/network"
+package network // import "github.com/DevanshMathur19/docker-v23/api/types/network"
 import (
-	"github.com/docker/docker/api/types/filters"
+	"github.com/DevanshMathur19/docker-v23/api/types/filters"
 )
 
 // Address represents an IP address

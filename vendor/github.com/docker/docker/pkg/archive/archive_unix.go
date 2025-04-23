@@ -1,7 +1,7 @@
 //go:build !windows
 // +build !windows
 
-package archive // import "github.com/docker/docker/pkg/archive"
+package archive // import "github.com/DevanshMathur19/docker-v23/pkg/archive"
 
 import (
 	"archive/tar"
@@ -12,8 +12,8 @@ import (
 	"syscall"
 
 	"github.com/containerd/containerd/pkg/userns"
-	"github.com/docker/docker/pkg/idtools"
-	"github.com/docker/docker/pkg/system"
+	"github.com/DevanshMathur19/docker-v23/pkg/idtools"
+	"github.com/DevanshMathur19/docker-v23/pkg/system"
 	"golang.org/x/sys/unix"
 )
 

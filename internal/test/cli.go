@@ -14,7 +14,7 @@ import (
 	registryclient "github.com/DevanshMathur19/docker-cli-v23/cli/registry/client"
 	"github.com/DevanshMathur19/docker-cli-v23/cli/streams"
 	"github.com/DevanshMathur19/docker-cli-v23/cli/trust"
-	"github.com/docker/docker/client"
+	"github.com/DevanshMathur19/docker-v23/client"
 	notaryclient "github.com/theupdateframework/notary/client"
 )
 

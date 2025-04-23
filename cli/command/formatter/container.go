@@ -8,8 +8,8 @@ import (
 	"time"
 
 	"github.com/docker/distribution/reference"
-	"github.com/docker/docker/api/types"
-	"github.com/docker/docker/pkg/stringid"
+	"github.com/DevanshMathur19/docker-v23/api/types"
+	"github.com/DevanshMathur19/docker-v23/pkg/stringid"
 	"github.com/docker/go-units"
 )
 

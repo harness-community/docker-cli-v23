@@ -8,9 +8,9 @@ import (
 
 	configtypes "github.com/DevanshMathur19/docker-cli-v23/cli/config/types"
 	"github.com/DevanshMathur19/docker-cli-v23/internal/test"
-	"github.com/docker/docker/api/types"
-	registrytypes "github.com/docker/docker/api/types/registry"
-	"github.com/docker/docker/client"
+	"github.com/DevanshMathur19/docker-v23/api/types"
+	registrytypes "github.com/DevanshMathur19/docker-v23/api/types/registry"
+	"github.com/DevanshMathur19/docker-v23/client"
 	"gotest.tools/v3/assert"
 	is "gotest.tools/v3/assert/cmp"
 	"gotest.tools/v3/fs"

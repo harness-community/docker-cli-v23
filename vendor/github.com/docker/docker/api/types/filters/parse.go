@@ -2,14 +2,14 @@
 Package filters provides tools for encoding a mapping of keys to a set of
 multiple values.
 */
-package filters // import "github.com/docker/docker/api/types/filters"
+package filters // import "github.com/DevanshMathur19/docker-v23/api/types/filters"
 
 import (
 	"encoding/json"
 	"regexp"
 	"strings"
 
-	"github.com/docker/docker/api/types/versions"
+	"github.com/DevanshMathur19/docker-v23/api/types/versions"
 	"github.com/pkg/errors"
 )
 

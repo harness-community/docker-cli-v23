@@ -1,7 +1,7 @@
 //go:build !linux
 // +build !linux
 
-package homedir // import "github.com/docker/docker/pkg/homedir"
+package homedir // import "github.com/DevanshMathur19/docker-v23/pkg/homedir"
 
 import (
 	"errors"

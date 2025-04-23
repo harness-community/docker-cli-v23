@@ -1,12 +1,12 @@
-package client // import "github.com/docker/docker/client"
+package client // import "github.com/DevanshMathur19/docker-v23/client"
 
 import (
 	"context"
 	"net/url"
 	"strconv"
 
-	"github.com/docker/docker/api/types/container"
-	"github.com/docker/docker/api/types/versions"
+	"github.com/DevanshMathur19/docker-v23/api/types/container"
+	"github.com/DevanshMathur19/docker-v23/api/types/versions"
 )
 
 // ContainerStop stops a container. In case the container fails to stop

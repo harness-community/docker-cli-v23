@@ -1,7 +1,7 @@
 //go:build !windows
 // +build !windows
 
-package idtools // import "github.com/docker/docker/pkg/idtools"
+package idtools // import "github.com/DevanshMathur19/docker-v23/pkg/idtools"
 
 import (
 	"fmt"

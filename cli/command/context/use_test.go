@@ -12,8 +12,8 @@ import (
 	"github.com/DevanshMathur19/docker-cli-v23/cli/config"
 	"github.com/DevanshMathur19/docker-cli-v23/cli/config/configfile"
 	"github.com/DevanshMathur19/docker-cli-v23/cli/flags"
-	"github.com/docker/docker/errdefs"
-	"github.com/docker/docker/pkg/homedir"
+	"github.com/DevanshMathur19/docker-v23/errdefs"
+	"github.com/DevanshMathur19/docker-v23/pkg/homedir"
 	"gotest.tools/v3/assert"
 	is "gotest.tools/v3/assert/cmp"
 )

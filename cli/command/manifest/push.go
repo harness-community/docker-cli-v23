@@ -15,7 +15,7 @@ import (
 	"github.com/docker/distribution/manifest/ocischema"
 	"github.com/docker/distribution/manifest/schema2"
 	"github.com/docker/distribution/reference"
-	"github.com/docker/docker/registry"
+	"github.com/DevanshMathur19/docker-v23/registry"
 	"github.com/pkg/errors"
 	"github.com/spf13/cobra"
 )

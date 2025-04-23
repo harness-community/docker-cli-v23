@@ -14,9 +14,9 @@ import (
 	configtypes "github.com/DevanshMathur19/docker-cli-v23/cli/config/types"
 	"github.com/DevanshMathur19/docker-cli-v23/cli/streams"
 	"github.com/docker/distribution/reference"
-	"github.com/docker/docker/api/types"
-	registrytypes "github.com/docker/docker/api/types/registry"
-	"github.com/docker/docker/registry"
+	"github.com/DevanshMathur19/docker-v23/api/types"
+	registrytypes "github.com/DevanshMathur19/docker-v23/api/types/registry"
+	"github.com/DevanshMathur19/docker-v23/registry"
 	"github.com/moby/term"
 	"github.com/pkg/errors"
 )
@@ -103,7 +103,7 @@ func ConfigureAuth(cli Cli, flUser, flPassword string, authconfig *types.AuthCon
 
 	// Some links documenting this:
 	// - https://code.google.com/archive/p/mintty/issues/56
-	// - https://github.com/docker/docker/issues/15272
+	// - https://github.com/DevanshMathur19/docker-v23/issues/15272
 	// - https://mintty.github.io/ (compatibility)
 	// Linux will hit this if you attempt `cat | docker login`, and Windows
 	// will hit this if you attempt docker login from mintty where stdin

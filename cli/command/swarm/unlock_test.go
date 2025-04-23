@@ -7,8 +7,8 @@ import (
 
 	"github.com/DevanshMathur19/docker-cli-v23/cli/streams"
 	"github.com/DevanshMathur19/docker-cli-v23/internal/test"
-	"github.com/docker/docker/api/types"
-	"github.com/docker/docker/api/types/swarm"
+	"github.com/DevanshMathur19/docker-v23/api/types"
+	"github.com/DevanshMathur19/docker-v23/api/types/swarm"
 	"github.com/pkg/errors"
 	"gotest.tools/v3/assert"
 )

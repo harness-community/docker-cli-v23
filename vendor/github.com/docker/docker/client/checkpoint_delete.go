@@ -1,10 +1,10 @@
-package client // import "github.com/docker/docker/client"
+package client // import "github.com/DevanshMathur19/docker-v23/client"
 
 import (
 	"context"
 	"net/url"
 
-	"github.com/docker/docker/api/types"
+	"github.com/DevanshMathur19/docker-v23/api/types"
 )
 
 // CheckpointDelete deletes the checkpoint with the given name from the given container

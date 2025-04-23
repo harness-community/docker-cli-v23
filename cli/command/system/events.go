@@ -14,8 +14,8 @@ import (
 	"github.com/DevanshMathur19/docker-cli-v23/cli/command/completion"
 	"github.com/DevanshMathur19/docker-cli-v23/opts"
 	"github.com/DevanshMathur19/docker-cli-v23/templates"
-	"github.com/docker/docker/api/types"
-	eventtypes "github.com/docker/docker/api/types/events"
+	"github.com/DevanshMathur19/docker-v23/api/types"
+	eventtypes "github.com/DevanshMathur19/docker-v23/api/types/events"
 	"github.com/spf13/cobra"
 )
 

@@ -1,4 +1,4 @@
-package events // import "github.com/docker/docker/api/types/events"
+package events // import "github.com/DevanshMathur19/docker-v23/api/types/events"
 
 // Type is used for event-types.
 type Type = string

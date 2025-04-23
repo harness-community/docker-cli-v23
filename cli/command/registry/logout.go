@@ -5,7 +5,7 @@ import (
 
 	"github.com/DevanshMathur19/docker-cli-v23/cli"
 	"github.com/DevanshMathur19/docker-cli-v23/cli/command"
-	"github.com/docker/docker/registry"
+	"github.com/DevanshMathur19/docker-v23/registry"
 	"github.com/spf13/cobra"
 )
 

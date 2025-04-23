@@ -8,8 +8,8 @@ import (
 	"github.com/DevanshMathur19/docker-cli-v23/cli/command"
 	"github.com/DevanshMathur19/docker-cli-v23/cli/command/formatter"
 	"github.com/docker/distribution/reference"
-	"github.com/docker/docker/api/types/swarm"
-	"github.com/docker/docker/pkg/stringid"
+	"github.com/DevanshMathur19/docker-v23/api/types/swarm"
+	"github.com/DevanshMathur19/docker-v23/pkg/stringid"
 	"github.com/docker/go-units"
 )
 

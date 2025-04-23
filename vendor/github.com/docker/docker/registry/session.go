@@ -1,4 +1,4 @@
-package registry // import "github.com/docker/docker/registry"
+package registry // import "github.com/DevanshMathur19/docker-v23/registry"
 
 import (
 	// this is required for some certificates
@@ -11,11 +11,11 @@ import (
 	"strings"
 	"sync"
 
-	"github.com/docker/docker/api/types"
-	"github.com/docker/docker/api/types/registry"
-	"github.com/docker/docker/errdefs"
-	"github.com/docker/docker/pkg/ioutils"
-	"github.com/docker/docker/pkg/jsonmessage"
+	"github.com/DevanshMathur19/docker-v23/api/types"
+	"github.com/DevanshMathur19/docker-v23/api/types/registry"
+	"github.com/DevanshMathur19/docker-v23/errdefs"
+	"github.com/DevanshMathur19/docker-v23/pkg/ioutils"
+	"github.com/DevanshMathur19/docker-v23/pkg/jsonmessage"
 	"github.com/pkg/errors"
 	"github.com/sirupsen/logrus"
 )

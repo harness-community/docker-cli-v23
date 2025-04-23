@@ -12,7 +12,7 @@ import (
 	"github.com/DevanshMathur19/docker-cli-v23/cli/command"
 	"github.com/DevanshMathur19/docker-cli-v23/cli/command/image"
 	"github.com/DevanshMathur19/docker-cli-v23/cli/trust"
-	"github.com/docker/docker/api/types"
+	"github.com/DevanshMathur19/docker-v23/api/types"
 	"github.com/pkg/errors"
 	"github.com/spf13/cobra"
 	"github.com/theupdateframework/notary/client"

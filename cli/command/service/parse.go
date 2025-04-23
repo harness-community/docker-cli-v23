@@ -3,10 +3,10 @@ package service
 import (
 	"context"
 
-	"github.com/docker/docker/api/types"
-	"github.com/docker/docker/api/types/filters"
-	swarmtypes "github.com/docker/docker/api/types/swarm"
-	"github.com/docker/docker/client"
+	"github.com/DevanshMathur19/docker-v23/api/types"
+	"github.com/DevanshMathur19/docker-v23/api/types/filters"
+	swarmtypes "github.com/DevanshMathur19/docker-v23/api/types/swarm"
+	"github.com/DevanshMathur19/docker-v23/client"
 	"github.com/pkg/errors"
 )
 

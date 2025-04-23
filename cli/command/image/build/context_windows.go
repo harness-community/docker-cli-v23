@@ -3,7 +3,7 @@ package build
 import (
 	"path/filepath"
 
-	"github.com/docker/docker/pkg/longpath"
+	"github.com/DevanshMathur19/docker-v23/pkg/longpath"
 )
 
 func getContextRoot(srcPath string) (string, error) {

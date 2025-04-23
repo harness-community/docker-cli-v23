@@ -6,7 +6,7 @@ import (
 
 	"github.com/DevanshMathur19/docker-cli-v23/cli/config"
 	"github.com/DevanshMathur19/docker-cli-v23/cli/config/configfile"
-	"github.com/docker/docker/errdefs"
+	"github.com/DevanshMathur19/docker-v23/errdefs"
 	"gotest.tools/v3/assert"
 	is "gotest.tools/v3/assert/cmp"
 )

@@ -1,13 +1,13 @@
 // Package streamformatter provides helper functions to format a stream.
-package streamformatter // import "github.com/docker/docker/pkg/streamformatter"
+package streamformatter // import "github.com/DevanshMathur19/docker-v23/pkg/streamformatter"
 
 import (
 	"encoding/json"
 	"fmt"
 	"io"
 
-	"github.com/docker/docker/pkg/jsonmessage"
-	"github.com/docker/docker/pkg/progress"
+	"github.com/DevanshMathur19/docker-v23/pkg/jsonmessage"
+	"github.com/DevanshMathur19/docker-v23/pkg/progress"
 )
 
 const streamNewline = "\r\n"

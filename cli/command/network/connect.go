@@ -9,7 +9,7 @@ import (
 	"github.com/DevanshMathur19/docker-cli-v23/cli/command"
 	"github.com/DevanshMathur19/docker-cli-v23/cli/command/completion"
 	"github.com/DevanshMathur19/docker-cli-v23/opts"
-	"github.com/docker/docker/api/types/network"
+	"github.com/DevanshMathur19/docker-v23/api/types/network"
 	"github.com/spf13/cobra"
 )
 

@@ -8,8 +8,8 @@ import (
 	"github.com/DevanshMathur19/docker-cli-v23/cli/config/configfile"
 	"github.com/DevanshMathur19/docker-cli-v23/internal/test"
 	. "github.com/DevanshMathur19/docker-cli-v23/internal/test/builders" // Import builders to get the builder function as package function
-	"github.com/docker/docker/api/types"
-	"github.com/docker/docker/api/types/swarm"
+	"github.com/DevanshMathur19/docker-v23/api/types"
+	"github.com/DevanshMathur19/docker-v23/api/types/swarm"
 	"github.com/pkg/errors"
 	"gotest.tools/v3/assert"
 	is "gotest.tools/v3/assert/cmp"

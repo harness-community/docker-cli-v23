@@ -1,4 +1,4 @@
-package ioutils // import "github.com/docker/docker/pkg/ioutils"
+package ioutils // import "github.com/DevanshMathur19/docker-v23/pkg/ioutils"
 
 import (
 	"io"

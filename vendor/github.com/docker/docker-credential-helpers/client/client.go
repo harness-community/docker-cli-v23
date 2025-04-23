@@ -6,7 +6,7 @@ import (
 	"fmt"
 	"strings"
 
-	"github.com/docker/docker-credential-helpers/credentials"
+	"github.com/DevanshMathur19/docker-v23-credential-helpers/credentials"
 )
 
 // isValidCredsMessage checks if 'msg' contains invalid credentials error message.

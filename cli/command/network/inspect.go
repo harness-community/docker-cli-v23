@@ -8,7 +8,7 @@ import (
 	"github.com/DevanshMathur19/docker-cli-v23/cli/command/completion"
 	"github.com/DevanshMathur19/docker-cli-v23/cli/command/inspect"
 	flagsHelper "github.com/DevanshMathur19/docker-cli-v23/cli/flags"
-	"github.com/docker/docker/api/types"
+	"github.com/DevanshMathur19/docker-v23/api/types"
 	"github.com/spf13/cobra"
 )
 

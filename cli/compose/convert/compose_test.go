@@ -4,8 +4,8 @@ import (
 	"testing"
 
 	composetypes "github.com/DevanshMathur19/docker-cli-v23/cli/compose/types"
-	"github.com/docker/docker/api/types"
-	"github.com/docker/docker/api/types/network"
+	"github.com/DevanshMathur19/docker-v23/api/types"
+	"github.com/DevanshMathur19/docker-v23/api/types/network"
 	"gotest.tools/v3/assert"
 	is "gotest.tools/v3/assert/cmp"
 	"gotest.tools/v3/fs"

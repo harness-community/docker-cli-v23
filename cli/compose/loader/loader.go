@@ -14,7 +14,7 @@ import (
 	"github.com/DevanshMathur19/docker-cli-v23/cli/compose/template"
 	"github.com/DevanshMathur19/docker-cli-v23/cli/compose/types"
 	"github.com/DevanshMathur19/docker-cli-v23/opts"
-	"github.com/docker/docker/api/types/versions"
+	"github.com/DevanshMathur19/docker-v23/api/types/versions"
 	"github.com/docker/go-connections/nat"
 	units "github.com/docker/go-units"
 	"github.com/google/shlex"

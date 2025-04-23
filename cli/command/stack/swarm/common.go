@@ -5,10 +5,10 @@ import (
 
 	"github.com/DevanshMathur19/docker-cli-v23/cli/compose/convert"
 	"github.com/DevanshMathur19/docker-cli-v23/opts"
-	"github.com/docker/docker/api/types"
-	"github.com/docker/docker/api/types/filters"
-	"github.com/docker/docker/api/types/swarm"
-	"github.com/docker/docker/client"
+	"github.com/DevanshMathur19/docker-v23/api/types"
+	"github.com/DevanshMathur19/docker-v23/api/types/filters"
+	"github.com/DevanshMathur19/docker-v23/api/types/swarm"
+	"github.com/DevanshMathur19/docker-v23/client"
 )
 
 func getStackFilter(namespace string) filters.Args {

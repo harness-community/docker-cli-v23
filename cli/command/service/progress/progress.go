@@ -11,13 +11,13 @@ import (
 	"strings"
 	"time"
 
-	"github.com/docker/docker/api/types"
-	"github.com/docker/docker/api/types/filters"
-	"github.com/docker/docker/api/types/swarm"
-	"github.com/docker/docker/client"
-	"github.com/docker/docker/pkg/progress"
-	"github.com/docker/docker/pkg/streamformatter"
-	"github.com/docker/docker/pkg/stringid"
+	"github.com/DevanshMathur19/docker-v23/api/types"
+	"github.com/DevanshMathur19/docker-v23/api/types/filters"
+	"github.com/DevanshMathur19/docker-v23/api/types/swarm"
+	"github.com/DevanshMathur19/docker-v23/client"
+	"github.com/DevanshMathur19/docker-v23/pkg/progress"
+	"github.com/DevanshMathur19/docker-v23/pkg/streamformatter"
+	"github.com/DevanshMathur19/docker-v23/pkg/stringid"
 )
 
 var (

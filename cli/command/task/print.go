@@ -9,7 +9,7 @@ import (
 	"github.com/DevanshMathur19/docker-cli-v23/cli/command/formatter"
 	"github.com/DevanshMathur19/docker-cli-v23/cli/command/idresolver"
 	"github.com/DevanshMathur19/docker-cli-v23/cli/config/configfile"
-	"github.com/docker/docker/api/types/swarm"
+	"github.com/DevanshMathur19/docker-v23/api/types/swarm"
 	"github.com/fvbommel/sortorder"
 )
 

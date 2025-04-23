@@ -13,7 +13,7 @@ import (
 	"github.com/docker/distribution/registry/api/errcode"
 	v2 "github.com/docker/distribution/registry/api/v2"
 	distclient "github.com/docker/distribution/registry/client"
-	"github.com/docker/docker/registry"
+	"github.com/DevanshMathur19/docker-v23/registry"
 	"github.com/opencontainers/go-digest"
 	ocispec "github.com/opencontainers/image-spec/specs-go/v1"
 	"github.com/pkg/errors"
@@ -323,5 +323,5 @@ func (n *notFoundError) Error() string {
 	return n.err.Error()
 }
 
-// NotFound satisfies interface github.com/docker/docker/errdefs.ErrNotFound
+// NotFound satisfies interface github.com/DevanshMathur19/docker-v23/errdefs.ErrNotFound
 func (n *notFoundError) NotFound() {}

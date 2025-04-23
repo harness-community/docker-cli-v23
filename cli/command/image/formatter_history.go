@@ -6,8 +6,8 @@ import (
 	"time"
 
 	"github.com/DevanshMathur19/docker-cli-v23/cli/command/formatter"
-	"github.com/docker/docker/api/types/image"
-	"github.com/docker/docker/pkg/stringid"
+	"github.com/DevanshMathur19/docker-v23/api/types/image"
+	"github.com/DevanshMathur19/docker-v23/pkg/stringid"
 	units "github.com/docker/go-units"
 )
 

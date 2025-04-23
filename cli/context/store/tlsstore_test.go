@@ -3,7 +3,7 @@ package store
 import (
 	"testing"
 
-	"github.com/docker/docker/errdefs"
+	"github.com/DevanshMathur19/docker-v23/errdefs"
 	"gotest.tools/v3/assert"
 )
 

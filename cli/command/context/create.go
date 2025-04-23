@@ -10,7 +10,7 @@ import (
 	"github.com/DevanshMathur19/docker-cli-v23/cli/command/formatter/tabwriter"
 	"github.com/DevanshMathur19/docker-cli-v23/cli/context/docker"
 	"github.com/DevanshMathur19/docker-cli-v23/cli/context/store"
-	"github.com/docker/docker/errdefs"
+	"github.com/DevanshMathur19/docker-v23/errdefs"
 	"github.com/pkg/errors"
 	"github.com/spf13/cobra"
 )

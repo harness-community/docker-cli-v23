@@ -5,11 +5,11 @@ import (
 	"strconv"
 
 	"github.com/DevanshMathur19/docker-cli-v23/cli/command"
-	"github.com/docker/docker/api/types"
-	"github.com/docker/docker/api/types/container"
-	"github.com/docker/docker/api/types/events"
-	"github.com/docker/docker/api/types/filters"
-	"github.com/docker/docker/api/types/versions"
+	"github.com/DevanshMathur19/docker-v23/api/types"
+	"github.com/DevanshMathur19/docker-v23/api/types/container"
+	"github.com/DevanshMathur19/docker-v23/api/types/events"
+	"github.com/DevanshMathur19/docker-v23/api/types/filters"
+	"github.com/DevanshMathur19/docker-v23/api/types/versions"
 	"github.com/sirupsen/logrus"
 )
 

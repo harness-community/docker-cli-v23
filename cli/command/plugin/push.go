@@ -7,8 +7,8 @@ import (
 	"github.com/DevanshMathur19/docker-cli-v23/cli/command"
 	"github.com/DevanshMathur19/docker-cli-v23/cli/command/image"
 	"github.com/docker/distribution/reference"
-	"github.com/docker/docker/pkg/jsonmessage"
-	"github.com/docker/docker/registry"
+	"github.com/DevanshMathur19/docker-v23/pkg/jsonmessage"
+	"github.com/DevanshMathur19/docker-v23/registry"
 	"github.com/pkg/errors"
 	"github.com/spf13/cobra"
 )

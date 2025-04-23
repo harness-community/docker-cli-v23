@@ -7,7 +7,7 @@ import (
 	"time"
 
 	"github.com/DevanshMathur19/docker-cli-v23/internal/test"
-	"github.com/docker/docker/api/types/image"
+	"github.com/DevanshMathur19/docker-v23/api/types/image"
 	"github.com/pkg/errors"
 	"gotest.tools/v3/assert"
 	"gotest.tools/v3/golden"

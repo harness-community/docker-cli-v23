@@ -3,10 +3,10 @@ package volume
 import (
 	"context"
 
-	"github.com/docker/docker/api/types"
-	"github.com/docker/docker/api/types/filters"
-	"github.com/docker/docker/api/types/volume"
-	"github.com/docker/docker/client"
+	"github.com/DevanshMathur19/docker-v23/api/types"
+	"github.com/DevanshMathur19/docker-v23/api/types/filters"
+	"github.com/DevanshMathur19/docker-v23/api/types/volume"
+	"github.com/DevanshMathur19/docker-v23/client"
 )
 
 type fakeClient struct {

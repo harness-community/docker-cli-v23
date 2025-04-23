@@ -8,8 +8,8 @@ import (
 	"testing"
 
 	"github.com/DevanshMathur19/docker-cli-v23/internal/test"
-	"github.com/docker/docker/api/types/volume"
-	"github.com/docker/docker/pkg/stringid"
+	"github.com/DevanshMathur19/docker-v23/api/types/volume"
+	"github.com/DevanshMathur19/docker-v23/pkg/stringid"
 	"gotest.tools/v3/assert"
 	is "gotest.tools/v3/assert/cmp"
 )

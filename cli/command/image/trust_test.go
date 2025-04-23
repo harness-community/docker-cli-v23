@@ -4,7 +4,7 @@ import (
 	"testing"
 
 	"github.com/DevanshMathur19/docker-cli-v23/cli/trust"
-	registrytypes "github.com/docker/docker/api/types/registry"
+	registrytypes "github.com/DevanshMathur19/docker-v23/api/types/registry"
 	"github.com/theupdateframework/notary/client"
 	"github.com/theupdateframework/notary/passphrase"
 	"github.com/theupdateframework/notary/trustpinning"

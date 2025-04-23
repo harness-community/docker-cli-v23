@@ -11,7 +11,7 @@ import (
 	flagsHelper "github.com/DevanshMathur19/docker-cli-v23/cli/flags"
 	"github.com/DevanshMathur19/docker-cli-v23/opts"
 	"github.com/DevanshMathur19/docker-cli-v23/templates"
-	"github.com/docker/docker/api/types"
+	"github.com/DevanshMathur19/docker-v23/api/types"
 	"github.com/pkg/errors"
 	"github.com/spf13/cobra"
 )

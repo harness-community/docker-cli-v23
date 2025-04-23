@@ -9,7 +9,7 @@ import (
 	"time"
 
 	"github.com/DevanshMathur19/docker-cli-v23/opts"
-	"github.com/docker/docker/api/types/swarm"
+	"github.com/DevanshMathur19/docker-v23/api/types/swarm"
 	"github.com/pkg/errors"
 	"github.com/spf13/pflag"
 )

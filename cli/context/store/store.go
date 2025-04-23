@@ -14,7 +14,7 @@ import (
 	"regexp"
 	"strings"
 
-	"github.com/docker/docker/errdefs"
+	"github.com/DevanshMathur19/docker-v23/errdefs"
 	"github.com/opencontainers/go-digest"
 	"github.com/pkg/errors"
 )
@@ -496,14 +496,14 @@ func importEndpointTLS(tlsData *ContextTLSData, path string, data []byte) error 
 
 // IsErrContextDoesNotExist checks if the given error is a "context does not exist" condition.
 //
-// Deprecated: use github.com/docker/docker/errdefs.IsNotFound()
+// Deprecated: use github.com/DevanshMathur19/docker-v23/errdefs.IsNotFound()
 func IsErrContextDoesNotExist(err error) bool {
 	return errdefs.IsNotFound(err)
 }
 
 // IsErrTLSDataDoesNotExist checks if the given error is a "context does not exist" condition
 //
-// Deprecated: use github.com/docker/docker/errdefs.IsNotFound()
+// Deprecated: use github.com/DevanshMathur19/docker-v23/errdefs.IsNotFound()
 func IsErrTLSDataDoesNotExist(err error) bool {
 	return errdefs.IsNotFound(err)
 }

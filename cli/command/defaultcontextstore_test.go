@@ -8,7 +8,7 @@ import (
 	"github.com/DevanshMathur19/docker-cli-v23/cli/context/docker"
 	"github.com/DevanshMathur19/docker-cli-v23/cli/context/store"
 	cliflags "github.com/DevanshMathur19/docker-cli-v23/cli/flags"
-	"github.com/docker/docker/errdefs"
+	"github.com/DevanshMathur19/docker-v23/errdefs"
 	"github.com/docker/go-connections/tlsconfig"
 	"gotest.tools/v3/assert"
 	is "gotest.tools/v3/assert/cmp"

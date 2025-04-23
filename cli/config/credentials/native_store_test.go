@@ -8,8 +8,8 @@ import (
 	"testing"
 
 	"github.com/DevanshMathur19/docker-cli-v23/cli/config/types"
-	"github.com/docker/docker-credential-helpers/client"
-	"github.com/docker/docker-credential-helpers/credentials"
+	"github.com/DevanshMathur19/docker-v23-credential-helpers/client"
+	"github.com/DevanshMathur19/docker-v23-credential-helpers/credentials"
 	"github.com/pkg/errors"
 	"gotest.tools/v3/assert"
 	is "gotest.tools/v3/assert/cmp"

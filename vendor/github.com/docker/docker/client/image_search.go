@@ -1,4 +1,4 @@
-package client // import "github.com/docker/docker/client"
+package client // import "github.com/DevanshMathur19/docker-v23/client"
 
 import (
 	"context"
@@ -6,10 +6,10 @@ import (
 	"net/url"
 	"strconv"
 
-	"github.com/docker/docker/api/types"
-	"github.com/docker/docker/api/types/filters"
-	"github.com/docker/docker/api/types/registry"
-	"github.com/docker/docker/errdefs"
+	"github.com/DevanshMathur19/docker-v23/api/types"
+	"github.com/DevanshMathur19/docker-v23/api/types/filters"
+	"github.com/DevanshMathur19/docker-v23/api/types/registry"
+	"github.com/DevanshMathur19/docker-v23/errdefs"
 )
 
 // ImageSearch makes the docker host search by a term in a remote registry.

@@ -15,7 +15,7 @@ import (
 	"github.com/DevanshMathur19/docker-cli-v23/cli/command/network"
 	"github.com/DevanshMathur19/docker-cli-v23/cli/command/volume"
 	"github.com/DevanshMathur19/docker-cli-v23/opts"
-	"github.com/docker/docker/api/types/versions"
+	"github.com/DevanshMathur19/docker-v23/api/types/versions"
 	"github.com/docker/go-units"
 	"github.com/fvbommel/sortorder"
 	"github.com/spf13/cobra"

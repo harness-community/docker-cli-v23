@@ -6,8 +6,8 @@ import (
 	"github.com/DevanshMathur19/docker-cli-v23/cli/command"
 	"github.com/DevanshMathur19/docker-cli-v23/cli/command/service"
 	"github.com/DevanshMathur19/docker-cli-v23/cli/command/stack/options"
-	"github.com/docker/docker/api/types"
-	"github.com/docker/docker/api/types/swarm"
+	"github.com/DevanshMathur19/docker-v23/api/types"
+	"github.com/DevanshMathur19/docker-v23/api/types/swarm"
 )
 
 // GetServices is the swarm implementation of listing stack services

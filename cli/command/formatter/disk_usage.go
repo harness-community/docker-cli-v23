@@ -8,8 +8,8 @@ import (
 	"text/template"
 
 	"github.com/docker/distribution/reference"
-	"github.com/docker/docker/api/types"
-	"github.com/docker/docker/api/types/volume"
+	"github.com/DevanshMathur19/docker-v23/api/types"
+	"github.com/DevanshMathur19/docker-v23/api/types/volume"
 	units "github.com/docker/go-units"
 )
 

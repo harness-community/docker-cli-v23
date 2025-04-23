@@ -9,8 +9,8 @@ import (
 	"github.com/DevanshMathur19/docker-cli-v23/cli/command"
 	"github.com/DevanshMathur19/docker-cli-v23/cli/command/formatter"
 	"github.com/DevanshMathur19/docker-cli-v23/cli/command/inspect"
-	"github.com/docker/docker/api/types"
-	"github.com/docker/docker/api/types/swarm"
+	"github.com/DevanshMathur19/docker-v23/api/types"
+	"github.com/DevanshMathur19/docker-v23/api/types/swarm"
 	units "github.com/docker/go-units"
 )
 

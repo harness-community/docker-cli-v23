@@ -2,8 +2,8 @@ package container
 
 import (
 	"github.com/DevanshMathur19/docker-cli-v23/cli/command/formatter"
-	"github.com/docker/docker/api/types/container"
-	"github.com/docker/docker/pkg/archive"
+	"github.com/DevanshMathur19/docker-v23/api/types/container"
+	"github.com/DevanshMathur19/docker-v23/pkg/archive"
 )
 
 const (

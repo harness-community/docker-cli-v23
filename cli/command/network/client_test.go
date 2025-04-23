@@ -3,9 +3,9 @@ package network
 import (
 	"context"
 
-	"github.com/docker/docker/api/types"
-	"github.com/docker/docker/api/types/network"
-	"github.com/docker/docker/client"
+	"github.com/DevanshMathur19/docker-v23/api/types"
+	"github.com/DevanshMathur19/docker-v23/api/types/network"
+	"github.com/DevanshMathur19/docker-v23/client"
 )
 
 type fakeClient struct {

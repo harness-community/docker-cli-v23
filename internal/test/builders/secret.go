@@ -3,7 +3,7 @@ package builders
 import (
 	"time"
 
-	"github.com/docker/docker/api/types/swarm"
+	"github.com/DevanshMathur19/docker-v23/api/types/swarm"
 )
 
 // Secret creates a secret with default values.

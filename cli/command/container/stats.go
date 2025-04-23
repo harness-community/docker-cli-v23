@@ -13,9 +13,9 @@ import (
 	"github.com/DevanshMathur19/docker-cli-v23/cli/command/completion"
 	"github.com/DevanshMathur19/docker-cli-v23/cli/command/formatter"
 	flagsHelper "github.com/DevanshMathur19/docker-cli-v23/cli/flags"
-	"github.com/docker/docker/api/types"
-	"github.com/docker/docker/api/types/events"
-	"github.com/docker/docker/api/types/filters"
+	"github.com/DevanshMathur19/docker-v23/api/types"
+	"github.com/DevanshMathur19/docker-v23/api/types/events"
+	"github.com/DevanshMathur19/docker-v23/api/types/filters"
 	"github.com/pkg/errors"
 	"github.com/spf13/cobra"
 )

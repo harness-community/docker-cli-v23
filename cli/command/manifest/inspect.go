@@ -11,7 +11,7 @@ import (
 	"github.com/DevanshMathur19/docker-cli-v23/cli/manifest/types"
 	"github.com/docker/distribution/manifest/manifestlist"
 	"github.com/docker/distribution/reference"
-	"github.com/docker/docker/registry"
+	"github.com/DevanshMathur19/docker-v23/registry"
 	"github.com/pkg/errors"
 	"github.com/spf13/cobra"
 )

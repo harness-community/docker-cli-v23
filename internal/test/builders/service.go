@@ -1,7 +1,7 @@
 package builders
 
 import (
-	"github.com/docker/docker/api/types/swarm"
+	"github.com/DevanshMathur19/docker-v23/api/types/swarm"
 )
 
 // Service creates a service with default values.

@@ -1,4 +1,4 @@
-package system // import "github.com/docker/docker/pkg/system"
+package system // import "github.com/DevanshMathur19/docker-v23/pkg/system"
 
 import (
 	"bufio"

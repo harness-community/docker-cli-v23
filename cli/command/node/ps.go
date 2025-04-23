@@ -10,8 +10,8 @@ import (
 	"github.com/DevanshMathur19/docker-cli-v23/cli/command/idresolver"
 	"github.com/DevanshMathur19/docker-cli-v23/cli/command/task"
 	"github.com/DevanshMathur19/docker-cli-v23/opts"
-	"github.com/docker/docker/api/types"
-	"github.com/docker/docker/api/types/swarm"
+	"github.com/DevanshMathur19/docker-v23/api/types"
+	"github.com/DevanshMathur19/docker-v23/api/types/swarm"
 	"github.com/pkg/errors"
 	"github.com/spf13/cobra"
 )

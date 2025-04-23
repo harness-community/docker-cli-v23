@@ -7,7 +7,7 @@ import (
 
 	"github.com/DevanshMathur19/docker-cli-v23/cli/config"
 	"github.com/DevanshMathur19/docker-cli-v23/opts"
-	"github.com/docker/docker/client"
+	"github.com/DevanshMathur19/docker-v23/client"
 	"github.com/docker/go-connections/tlsconfig"
 	"github.com/sirupsen/logrus"
 	"github.com/spf13/pflag"

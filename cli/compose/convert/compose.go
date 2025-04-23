@@ -5,9 +5,9 @@ import (
 	"strings"
 
 	composetypes "github.com/DevanshMathur19/docker-cli-v23/cli/compose/types"
-	"github.com/docker/docker/api/types"
-	networktypes "github.com/docker/docker/api/types/network"
-	"github.com/docker/docker/api/types/swarm"
+	"github.com/DevanshMathur19/docker-v23/api/types"
+	networktypes "github.com/DevanshMathur19/docker-v23/api/types/network"
+	"github.com/DevanshMathur19/docker-v23/api/types/swarm"
 )
 
 const (

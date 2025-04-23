@@ -13,7 +13,7 @@ import (
 	"github.com/DevanshMathur19/docker-cli-v23/cli/command/commands"
 	cliflags "github.com/DevanshMathur19/docker-cli-v23/cli/flags"
 	"github.com/DevanshMathur19/docker-cli-v23/cli/version"
-	"github.com/docker/docker/api/types/versions"
+	"github.com/DevanshMathur19/docker-v23/api/types/versions"
 	"github.com/moby/buildkit/util/appcontext"
 	"github.com/pkg/errors"
 	"github.com/sirupsen/logrus"

@@ -1,4 +1,4 @@
-package client // import "github.com/docker/docker/client"
+package client // import "github.com/DevanshMathur19/docker-v23/client"
 
 // APIClient is an interface that clients that talk with a docker server must implement.
 type APIClient interface {

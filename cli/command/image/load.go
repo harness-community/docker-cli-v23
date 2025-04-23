@@ -7,7 +7,7 @@ import (
 	"github.com/DevanshMathur19/docker-cli-v23/cli"
 	"github.com/DevanshMathur19/docker-cli-v23/cli/command"
 	"github.com/DevanshMathur19/docker-cli-v23/cli/command/completion"
-	"github.com/docker/docker/pkg/jsonmessage"
+	"github.com/DevanshMathur19/docker-v23/pkg/jsonmessage"
 	"github.com/moby/sys/sequential"
 	"github.com/pkg/errors"
 	"github.com/spf13/cobra"

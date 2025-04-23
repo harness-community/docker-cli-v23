@@ -11,7 +11,7 @@ import (
 	"github.com/DevanshMathur19/docker-cli-v23/cli/connhelper"
 	"github.com/DevanshMathur19/docker-cli-v23/cli/context"
 	"github.com/DevanshMathur19/docker-cli-v23/cli/context/store"
-	"github.com/docker/docker/client"
+	"github.com/DevanshMathur19/docker-v23/client"
 	"github.com/docker/go-connections/tlsconfig"
 	"github.com/pkg/errors"
 )

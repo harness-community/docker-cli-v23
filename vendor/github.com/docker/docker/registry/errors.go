@@ -1,10 +1,10 @@
-package registry // import "github.com/docker/docker/registry"
+package registry // import "github.com/DevanshMathur19/docker-v23/registry"
 
 import (
 	"net/url"
 
 	"github.com/docker/distribution/registry/api/errcode"
-	"github.com/docker/docker/errdefs"
+	"github.com/DevanshMathur19/docker-v23/errdefs"
 	"github.com/pkg/errors"
 )
 
