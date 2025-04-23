@@ -4,8 +4,8 @@ import (
 	"strconv"
 	"strings"
 
-	"github.com/docker/cli/cli/command/formatter"
-	registrytypes "github.com/docker/docker/api/types/registry"
+	"github.com/harness-community/docker-cli-v23/cli/command/formatter"
+	registrytypes "github.com/harness-community/docker-v23/api/types/registry"
 )
 
 const (

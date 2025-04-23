@@ -5,9 +5,9 @@ import (
 	"io"
 	"testing"
 
-	"github.com/docker/cli/cli/manifest/store"
-	manifesttypes "github.com/docker/cli/cli/manifest/types"
-	"github.com/docker/cli/internal/test"
+	"github.com/harness-community/docker-cli-v23/cli/manifest/store"
+	manifesttypes "github.com/harness-community/docker-cli-v23/cli/manifest/types"
+	"github.com/harness-community/docker-cli-v23/internal/test"
 	"github.com/docker/distribution/reference"
 	"github.com/pkg/errors"
 	"gotest.tools/v3/assert"

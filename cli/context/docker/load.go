@@ -8,10 +8,10 @@ import (
 	"net/http"
 	"time"
 
-	"github.com/docker/cli/cli/connhelper"
-	"github.com/docker/cli/cli/context"
-	"github.com/docker/cli/cli/context/store"
-	"github.com/docker/docker/client"
+	"github.com/harness-community/docker-cli-v23/cli/connhelper"
+	"github.com/harness-community/docker-cli-v23/cli/context"
+	"github.com/harness-community/docker-cli-v23/cli/context/store"
+	"github.com/harness-community/docker-v23/client"
 	"github.com/docker/go-connections/tlsconfig"
 	"github.com/pkg/errors"
 )

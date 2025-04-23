@@ -8,8 +8,8 @@ import (
 	"reflect"
 	"sort"
 
-	"github.com/docker/docker/errdefs"
-	"github.com/docker/docker/pkg/ioutils"
+	"github.com/harness-community/docker-v23/errdefs"
+	"github.com/harness-community/docker-v23/pkg/ioutils"
 	"github.com/fvbommel/sortorder"
 	"github.com/pkg/errors"
 )

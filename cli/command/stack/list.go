@@ -3,13 +3,13 @@ package stack
 import (
 	"sort"
 
-	"github.com/docker/cli/cli"
-	"github.com/docker/cli/cli/command"
-	"github.com/docker/cli/cli/command/completion"
-	"github.com/docker/cli/cli/command/stack/formatter"
-	"github.com/docker/cli/cli/command/stack/options"
-	"github.com/docker/cli/cli/command/stack/swarm"
-	flagsHelper "github.com/docker/cli/cli/flags"
+	"github.com/harness-community/docker-cli-v23/cli"
+	"github.com/harness-community/docker-cli-v23/cli/command"
+	"github.com/harness-community/docker-cli-v23/cli/command/completion"
+	"github.com/harness-community/docker-cli-v23/cli/command/stack/formatter"
+	"github.com/harness-community/docker-cli-v23/cli/command/stack/options"
+	"github.com/harness-community/docker-cli-v23/cli/command/stack/swarm"
+	flagsHelper "github.com/harness-community/docker-cli-v23/cli/flags"
 	"github.com/fvbommel/sortorder"
 	"github.com/spf13/cobra"
 )

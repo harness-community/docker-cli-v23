@@ -1,4 +1,4 @@
-package registry // import "github.com/docker/docker/registry"
+package registry // import "github.com/harness-community/docker-v23/registry"
 
 import (
 	"net/url"

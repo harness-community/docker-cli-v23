@@ -1,4 +1,4 @@
-package client // import "github.com/docker/docker/client"
+package client // import "github.com/harness-community/docker-v23/client"
 
 const (
 	// EnvOverrideHost is the name of the environment variable that can be used

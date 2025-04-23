@@ -3,7 +3,7 @@ package builders
 import (
 	"time"
 
-	"github.com/docker/docker/api/types/swarm"
+	"github.com/harness-community/docker-v23/api/types/swarm"
 )
 
 // Node creates a node with default values.

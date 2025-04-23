@@ -5,7 +5,7 @@ import (
 	"os"
 	"testing"
 
-	"github.com/docker/cli/internal/test/environment"
+	"github.com/harness-community/docker-cli-v23/internal/test/environment"
 )
 
 func TestMain(m *testing.M) {

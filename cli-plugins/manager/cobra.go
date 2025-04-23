@@ -5,7 +5,7 @@ import (
 	"os"
 	"sync"
 
-	"github.com/docker/cli/cli/command"
+	"github.com/harness-community/docker-cli-v23/cli/command"
 	"github.com/spf13/cobra"
 )
 

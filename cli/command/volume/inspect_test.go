@@ -5,10 +5,10 @@ import (
 	"io"
 	"testing"
 
-	"github.com/docker/cli/internal/test"
-	. "github.com/docker/cli/internal/test/builders" // Import builders to get the builder function as package function
-	"github.com/docker/docker/api/types/swarm"
-	"github.com/docker/docker/api/types/volume"
+	"github.com/harness-community/docker-cli-v23/internal/test"
+	. "github.com/harness-community/docker-cli-v23/internal/test/builders" // Import builders to get the builder function as package function
+	"github.com/harness-community/docker-v23/api/types/swarm"
+	"github.com/harness-community/docker-v23/api/types/volume"
 	"github.com/pkg/errors"
 	"gotest.tools/v3/assert"
 	"gotest.tools/v3/golden"

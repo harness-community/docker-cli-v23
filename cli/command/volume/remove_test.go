@@ -4,7 +4,7 @@ import (
 	"io"
 	"testing"
 
-	"github.com/docker/cli/internal/test"
+	"github.com/harness-community/docker-cli-v23/internal/test"
 	"github.com/pkg/errors"
 	"gotest.tools/v3/assert"
 )

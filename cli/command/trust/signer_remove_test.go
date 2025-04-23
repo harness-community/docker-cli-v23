@@ -4,8 +4,8 @@ import (
 	"io"
 	"testing"
 
-	"github.com/docker/cli/internal/test"
-	notaryfake "github.com/docker/cli/internal/test/notary"
+	"github.com/harness-community/docker-cli-v23/internal/test"
+	notaryfake "github.com/harness-community/docker-cli-v23/internal/test/notary"
 	"github.com/theupdateframework/notary/client"
 	"github.com/theupdateframework/notary/tuf/data"
 	"gotest.tools/v3/assert"

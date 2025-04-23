@@ -1,4 +1,4 @@
-package client // import "github.com/docker/docker/client"
+package client // import "github.com/harness-community/docker-v23/client"
 
 import (
 	"bytes"
@@ -6,7 +6,7 @@ import (
 	"encoding/json"
 	"io"
 
-	"github.com/docker/docker/api/types/volume"
+	"github.com/harness-community/docker-v23/api/types/volume"
 )
 
 // VolumeInspect returns the information about a specific volume in the docker host.

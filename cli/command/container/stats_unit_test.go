@@ -3,7 +3,7 @@ package container
 import (
 	"testing"
 
-	"github.com/docker/docker/api/types"
+	"github.com/harness-community/docker-v23/api/types"
 )
 
 func TestCalculateBlockIO(t *testing.T) {

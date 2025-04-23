@@ -1,7 +1,7 @@
 //go:build !linux
 // +build !linux
 
-package archive // import "github.com/docker/docker/pkg/archive"
+package archive // import "github.com/harness-community/docker-v23/pkg/archive"
 
 import (
 	"syscall"

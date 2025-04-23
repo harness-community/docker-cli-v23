@@ -1,4 +1,4 @@
-package api // import "github.com/docker/docker/api"
+package api // import "github.com/harness-community/docker-v23/api"
 
 // Common constants for daemon and client.
 const (

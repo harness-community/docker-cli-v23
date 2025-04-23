@@ -1,4 +1,4 @@
-package jsonmessage // import "github.com/docker/docker/pkg/jsonmessage"
+package jsonmessage // import "github.com/harness-community/docker-v23/pkg/jsonmessage"
 
 import (
 	"encoding/json"

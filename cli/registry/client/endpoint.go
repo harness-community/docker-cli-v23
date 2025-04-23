@@ -9,8 +9,8 @@ import (
 	"github.com/docker/distribution/reference"
 	"github.com/docker/distribution/registry/client/auth"
 	"github.com/docker/distribution/registry/client/transport"
-	authtypes "github.com/docker/docker/api/types"
-	"github.com/docker/docker/registry"
+	authtypes "github.com/harness-community/docker-v23/api/types"
+	"github.com/harness-community/docker-v23/registry"
 	"github.com/pkg/errors"
 )
 

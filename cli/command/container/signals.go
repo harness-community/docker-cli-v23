@@ -5,7 +5,7 @@ import (
 	"os"
 	gosignal "os/signal"
 
-	"github.com/docker/cli/cli/command"
+	"github.com/harness-community/docker-cli-v23/cli/command"
 	"github.com/moby/sys/signal"
 	"github.com/sirupsen/logrus"
 )

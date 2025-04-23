@@ -1,11 +1,11 @@
-package client // import "github.com/docker/docker/client"
+package client // import "github.com/harness-community/docker-v23/client"
 
 import (
 	"context"
 	"encoding/json"
 	"net/url"
 
-	"github.com/docker/docker/api/types"
+	"github.com/harness-community/docker-v23/api/types"
 )
 
 // CheckpointList returns the checkpoints of the given container in the docker host

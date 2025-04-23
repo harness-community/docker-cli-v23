@@ -1,4 +1,4 @@
-package registry // import "github.com/docker/docker/registry"
+package registry // import "github.com/harness-community/docker-v23/registry"
 
 import (
 	"net"
@@ -8,7 +8,7 @@ import (
 	"strings"
 
 	"github.com/docker/distribution/reference"
-	"github.com/docker/docker/api/types/registry"
+	"github.com/harness-community/docker-v23/api/types/registry"
 	"github.com/sirupsen/logrus"
 )
 

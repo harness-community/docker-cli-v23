@@ -1,4 +1,4 @@
-package versions // import "github.com/docker/docker/api/types/versions"
+package versions // import "github.com/harness-community/docker-v23/api/types/versions"
 
 import (
 	"strconv"

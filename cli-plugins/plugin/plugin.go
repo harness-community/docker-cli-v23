@@ -6,11 +6,11 @@ import (
 	"os"
 	"sync"
 
-	"github.com/docker/cli/cli"
-	"github.com/docker/cli/cli-plugins/manager"
-	"github.com/docker/cli/cli/command"
-	"github.com/docker/cli/cli/connhelper"
-	"github.com/docker/docker/client"
+	"github.com/harness-community/docker-cli-v23/cli"
+	"github.com/harness-community/docker-cli-v23/cli-plugins/manager"
+	"github.com/harness-community/docker-cli-v23/cli/command"
+	"github.com/harness-community/docker-cli-v23/cli/connhelper"
+	"github.com/harness-community/docker-v23/client"
 	"github.com/spf13/cobra"
 )
 

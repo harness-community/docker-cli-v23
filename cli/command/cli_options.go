@@ -5,8 +5,8 @@ import (
 	"os"
 	"strconv"
 
-	"github.com/docker/cli/cli/streams"
-	"github.com/docker/docker/client"
+	"github.com/harness-community/docker-cli-v23/cli/streams"
+	"github.com/harness-community/docker-v23/client"
 	"github.com/moby/term"
 )
 

@@ -3,8 +3,8 @@ package manifest
 import (
 	"context"
 
-	manifesttypes "github.com/docker/cli/cli/manifest/types"
-	"github.com/docker/cli/cli/registry/client"
+	manifesttypes "github.com/harness-community/docker-cli-v23/cli/manifest/types"
+	"github.com/harness-community/docker-cli-v23/cli/registry/client"
 	"github.com/docker/distribution"
 	"github.com/docker/distribution/reference"
 	"github.com/opencontainers/go-digest"

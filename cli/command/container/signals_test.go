@@ -6,7 +6,7 @@ import (
 	"testing"
 	"time"
 
-	"github.com/docker/cli/internal/test"
+	"github.com/harness-community/docker-cli-v23/internal/test"
 	"github.com/moby/sys/signal"
 )
 

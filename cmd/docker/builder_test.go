@@ -7,12 +7,12 @@ import (
 	"path/filepath"
 	"testing"
 
-	"github.com/docker/cli/cli/command"
-	"github.com/docker/cli/cli/context/store"
-	"github.com/docker/cli/cli/flags"
-	"github.com/docker/cli/internal/test/output"
-	"github.com/docker/docker/api/types"
-	"github.com/docker/docker/client"
+	"github.com/harness-community/docker-cli-v23/cli/command"
+	"github.com/harness-community/docker-cli-v23/cli/context/store"
+	"github.com/harness-community/docker-cli-v23/cli/flags"
+	"github.com/harness-community/docker-cli-v23/internal/test/output"
+	"github.com/harness-community/docker-v23/api/types"
+	"github.com/harness-community/docker-v23/client"
 	"gotest.tools/v3/assert"
 	"gotest.tools/v3/fs"
 )

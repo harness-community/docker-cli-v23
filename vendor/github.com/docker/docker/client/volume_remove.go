@@ -1,10 +1,10 @@
-package client // import "github.com/docker/docker/client"
+package client // import "github.com/harness-community/docker-v23/client"
 
 import (
 	"context"
 	"net/url"
 
-	"github.com/docker/docker/api/types/versions"
+	"github.com/harness-community/docker-v23/api/types/versions"
 )
 
 // VolumeRemove removes a volume from the docker host.

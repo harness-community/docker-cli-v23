@@ -7,9 +7,9 @@ import (
 	"strings"
 	"testing"
 
-	"github.com/docker/cli/internal/test"
-	"github.com/docker/docker/api/types/volume"
-	"github.com/docker/docker/pkg/stringid"
+	"github.com/harness-community/docker-cli-v23/internal/test"
+	"github.com/harness-community/docker-v23/api/types/volume"
+	"github.com/harness-community/docker-v23/pkg/stringid"
 	"gotest.tools/v3/assert"
 	is "gotest.tools/v3/assert/cmp"
 )

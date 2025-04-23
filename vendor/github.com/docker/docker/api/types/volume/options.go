@@ -1,6 +1,6 @@
-package volume // import "github.com/docker/docker/api/types/volume"
+package volume // import "github.com/harness-community/docker-v23/api/types/volume"
 
-import "github.com/docker/docker/api/types/filters"
+import "github.com/harness-community/docker-v23/api/types/filters"
 
 // ListOptions holds parameters to list volumes.
 type ListOptions struct {

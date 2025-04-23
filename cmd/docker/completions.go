@@ -1,8 +1,8 @@
 package main
 
 import (
-	"github.com/docker/cli/cli/command"
-	"github.com/docker/cli/cli/context/store"
+	"github.com/harness-community/docker-cli-v23/cli/command"
+	"github.com/harness-community/docker-cli-v23/cli/context/store"
 	"github.com/spf13/cobra"
 )
 

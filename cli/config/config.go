@@ -8,10 +8,10 @@ import (
 	"strings"
 	"sync"
 
-	"github.com/docker/cli/cli/config/configfile"
-	"github.com/docker/cli/cli/config/credentials"
-	"github.com/docker/cli/cli/config/types"
-	"github.com/docker/docker/pkg/homedir"
+	"github.com/harness-community/docker-cli-v23/cli/config/configfile"
+	"github.com/harness-community/docker-cli-v23/cli/config/credentials"
+	"github.com/harness-community/docker-cli-v23/cli/config/types"
+	"github.com/harness-community/docker-v23/pkg/homedir"
 	"github.com/pkg/errors"
 )
 

@@ -5,9 +5,9 @@ import (
 	"io"
 	"testing"
 
-	"github.com/docker/cli/internal/test"
-	"github.com/docker/docker/api/types"
-	"github.com/docker/docker/api/types/filters"
+	"github.com/harness-community/docker-cli-v23/internal/test"
+	"github.com/harness-community/docker-v23/api/types"
+	"github.com/harness-community/docker-v23/api/types/filters"
 
 	"gotest.tools/v3/assert"
 	is "gotest.tools/v3/assert/cmp"

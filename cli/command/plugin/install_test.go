@@ -6,9 +6,9 @@ import (
 	"strings"
 	"testing"
 
-	"github.com/docker/cli/internal/test"
-	"github.com/docker/cli/internal/test/notary"
-	"github.com/docker/docker/api/types"
+	"github.com/harness-community/docker-cli-v23/internal/test"
+	"github.com/harness-community/docker-cli-v23/internal/test/notary"
+	"github.com/harness-community/docker-v23/api/types"
 
 	"gotest.tools/v3/assert"
 )

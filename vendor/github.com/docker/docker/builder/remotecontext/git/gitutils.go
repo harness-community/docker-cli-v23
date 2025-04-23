@@ -1,4 +1,4 @@
-package git // import "github.com/docker/docker/builder/remotecontext/git"
+package git // import "github.com/harness-community/docker-v23/builder/remotecontext/git"
 
 import (
 	"net/http"

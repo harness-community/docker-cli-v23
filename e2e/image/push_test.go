@@ -7,9 +7,9 @@ import (
 	"strings"
 	"testing"
 
-	"github.com/docker/cli/e2e/internal/fixtures"
-	"github.com/docker/cli/internal/test/environment"
-	"github.com/docker/cli/internal/test/output"
+	"github.com/harness-community/docker-cli-v23/e2e/internal/fixtures"
+	"github.com/harness-community/docker-cli-v23/internal/test/environment"
+	"github.com/harness-community/docker-cli-v23/internal/test/output"
 	"gotest.tools/v3/assert"
 	"gotest.tools/v3/fs"
 	"gotest.tools/v3/golden"

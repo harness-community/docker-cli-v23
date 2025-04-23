@@ -5,10 +5,10 @@ import (
 	"fmt"
 	"strings"
 
-	"github.com/docker/cli/cli"
-	"github.com/docker/cli/cli/command"
-	"github.com/docker/docker/api/types"
-	apiclient "github.com/docker/docker/client"
+	"github.com/harness-community/docker-cli-v23/cli"
+	"github.com/harness-community/docker-cli-v23/cli/command"
+	"github.com/harness-community/docker-v23/api/types"
+	apiclient "github.com/harness-community/docker-v23/client"
 	"github.com/pkg/errors"
 	"github.com/spf13/cobra"
 )

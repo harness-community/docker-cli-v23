@@ -9,13 +9,13 @@ import (
 	"text/template"
 	"time"
 
-	"github.com/docker/cli/cli"
-	"github.com/docker/cli/cli/command"
-	"github.com/docker/cli/cli/command/completion"
-	"github.com/docker/cli/opts"
-	"github.com/docker/cli/templates"
-	"github.com/docker/docker/api/types"
-	eventtypes "github.com/docker/docker/api/types/events"
+	"github.com/harness-community/docker-cli-v23/cli"
+	"github.com/harness-community/docker-cli-v23/cli/command"
+	"github.com/harness-community/docker-cli-v23/cli/command/completion"
+	"github.com/harness-community/docker-cli-v23/opts"
+	"github.com/harness-community/docker-cli-v23/templates"
+	"github.com/harness-community/docker-v23/api/types"
+	eventtypes "github.com/harness-community/docker-v23/api/types/events"
 	"github.com/spf13/cobra"
 )
 

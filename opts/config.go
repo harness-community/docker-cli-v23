@@ -7,7 +7,7 @@ import (
 	"strconv"
 	"strings"
 
-	swarmtypes "github.com/docker/docker/api/types/swarm"
+	swarmtypes "github.com/harness-community/docker-v23/api/types/swarm"
 )
 
 // ConfigOpt is a Value type for parsing configs

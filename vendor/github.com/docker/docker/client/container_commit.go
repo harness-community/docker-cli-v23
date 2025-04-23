@@ -1,4 +1,4 @@
-package client // import "github.com/docker/docker/client"
+package client // import "github.com/harness-community/docker-v23/client"
 
 import (
 	"context"
@@ -7,7 +7,7 @@ import (
 	"net/url"
 
 	"github.com/docker/distribution/reference"
-	"github.com/docker/docker/api/types"
+	"github.com/harness-community/docker-v23/api/types"
 )
 
 // ContainerCommit applies changes to a container and creates a new tagged image.

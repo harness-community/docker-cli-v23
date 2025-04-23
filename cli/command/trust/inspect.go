@@ -5,9 +5,9 @@ import (
 	"fmt"
 	"sort"
 
-	"github.com/docker/cli/cli"
-	"github.com/docker/cli/cli/command"
-	"github.com/docker/cli/cli/command/inspect"
+	"github.com/harness-community/docker-cli-v23/cli"
+	"github.com/harness-community/docker-cli-v23/cli/command"
+	"github.com/harness-community/docker-cli-v23/cli/command/inspect"
 	"github.com/spf13/cobra"
 	"github.com/theupdateframework/notary/tuf/data"
 )

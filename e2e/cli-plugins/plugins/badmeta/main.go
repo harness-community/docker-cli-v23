@@ -7,7 +7,7 @@ import (
 	"fmt"
 	"os"
 
-	"github.com/docker/cli/cli-plugins/manager"
+	"github.com/harness-community/docker-cli-v23/cli-plugins/manager"
 )
 
 func main() {

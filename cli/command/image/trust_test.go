@@ -3,8 +3,8 @@ package image
 import (
 	"testing"
 
-	"github.com/docker/cli/cli/trust"
-	registrytypes "github.com/docker/docker/api/types/registry"
+	"github.com/harness-community/docker-cli-v23/cli/trust"
+	registrytypes "github.com/harness-community/docker-v23/api/types/registry"
 	"github.com/theupdateframework/notary/client"
 	"github.com/theupdateframework/notary/passphrase"
 	"github.com/theupdateframework/notary/trustpinning"

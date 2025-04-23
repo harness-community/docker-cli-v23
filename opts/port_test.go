@@ -5,7 +5,7 @@ import (
 	"os"
 	"testing"
 
-	"github.com/docker/docker/api/types/swarm"
+	"github.com/harness-community/docker-v23/api/types/swarm"
 	"github.com/docker/go-connections/nat"
 	"github.com/sirupsen/logrus"
 	"gotest.tools/v3/assert"

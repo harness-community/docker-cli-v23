@@ -5,4 +5,4 @@
 
 package main
 
-import _ "github.com/docker/cli/cli/winresources"
+import _ "github.com/harness-community/docker-cli-v23/cli/winresources"

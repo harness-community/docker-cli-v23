@@ -5,7 +5,7 @@ import (
 	"path/filepath"
 	"testing"
 
-	mounttypes "github.com/docker/docker/api/types/mount"
+	mounttypes "github.com/harness-community/docker-v23/api/types/mount"
 	"gotest.tools/v3/assert"
 	is "gotest.tools/v3/assert/cmp"
 )

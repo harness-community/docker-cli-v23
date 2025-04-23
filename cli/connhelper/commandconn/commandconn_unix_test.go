@@ -12,7 +12,7 @@ import (
 	is "gotest.tools/v3/assert/cmp"
 )
 
-// For https://github.com/docker/cli/pull/1014#issuecomment-409308139
+// For https://github.com/harness-community/docker-cli-v23/pull/1014#issuecomment-409308139
 func TestEOFWithError(t *testing.T) {
 	ctx := context.TODO()
 	cmd := "sh"

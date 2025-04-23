@@ -5,10 +5,10 @@ import (
 	"strings"
 	"time"
 
-	"github.com/docker/cli/cli/command"
-	"github.com/docker/cli/cli/command/formatter"
-	"github.com/docker/cli/cli/command/inspect"
-	"github.com/docker/docker/api/types/swarm"
+	"github.com/harness-community/docker-cli-v23/cli/command"
+	"github.com/harness-community/docker-cli-v23/cli/command/formatter"
+	"github.com/harness-community/docker-cli-v23/cli/command/inspect"
+	"github.com/harness-community/docker-v23/api/types/swarm"
 	units "github.com/docker/go-units"
 )
 

@@ -5,7 +5,7 @@ import (
 	"path/filepath"
 	"testing"
 
-	"github.com/docker/docker/errdefs"
+	"github.com/harness-community/docker-v23/errdefs"
 	"gotest.tools/v3/assert"
 	"gotest.tools/v3/assert/cmp"
 )

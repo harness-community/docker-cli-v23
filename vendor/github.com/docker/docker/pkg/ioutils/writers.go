@@ -1,4 +1,4 @@
-package ioutils // import "github.com/docker/docker/pkg/ioutils"
+package ioutils // import "github.com/harness-community/docker-v23/pkg/ioutils"
 
 import "io"
 

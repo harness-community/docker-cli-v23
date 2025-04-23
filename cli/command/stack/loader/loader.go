@@ -9,11 +9,11 @@ import (
 	"sort"
 	"strings"
 
-	"github.com/docker/cli/cli/command"
-	"github.com/docker/cli/cli/command/stack/options"
-	"github.com/docker/cli/cli/compose/loader"
-	"github.com/docker/cli/cli/compose/schema"
-	composetypes "github.com/docker/cli/cli/compose/types"
+	"github.com/harness-community/docker-cli-v23/cli/command"
+	"github.com/harness-community/docker-cli-v23/cli/command/stack/options"
+	"github.com/harness-community/docker-cli-v23/cli/compose/loader"
+	"github.com/harness-community/docker-cli-v23/cli/compose/schema"
+	composetypes "github.com/harness-community/docker-cli-v23/cli/compose/types"
 	"github.com/pkg/errors"
 )
 
@@ -112,7 +112,7 @@ func buildEnvironment(env []string) (map[string]string, error) {
 			//
 			// https://ss64.com/nt/syntax-variables.html
 			// https://devblogs.microsoft.com/oldnewthing/20100506-00/?p=14133
-			// https://github.com/docker/cli/issues/4078
+			// https://github.com/harness-community/docker-cli-v23/issues/4078
 			if s[0] == '=' {
 				continue
 			}

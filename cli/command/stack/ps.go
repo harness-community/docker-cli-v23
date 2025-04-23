@@ -1,12 +1,12 @@
 package stack
 
 import (
-	"github.com/docker/cli/cli"
-	"github.com/docker/cli/cli/command"
-	"github.com/docker/cli/cli/command/stack/options"
-	"github.com/docker/cli/cli/command/stack/swarm"
-	flagsHelper "github.com/docker/cli/cli/flags"
-	cliopts "github.com/docker/cli/opts"
+	"github.com/harness-community/docker-cli-v23/cli"
+	"github.com/harness-community/docker-cli-v23/cli/command"
+	"github.com/harness-community/docker-cli-v23/cli/command/stack/options"
+	"github.com/harness-community/docker-cli-v23/cli/command/stack/swarm"
+	flagsHelper "github.com/harness-community/docker-cli-v23/cli/flags"
+	cliopts "github.com/harness-community/docker-cli-v23/opts"
 	"github.com/spf13/cobra"
 	"github.com/spf13/pflag"
 )

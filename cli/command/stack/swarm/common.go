@@ -3,12 +3,12 @@ package swarm
 import (
 	"context"
 
-	"github.com/docker/cli/cli/compose/convert"
-	"github.com/docker/cli/opts"
-	"github.com/docker/docker/api/types"
-	"github.com/docker/docker/api/types/filters"
-	"github.com/docker/docker/api/types/swarm"
-	"github.com/docker/docker/client"
+	"github.com/harness-community/docker-cli-v23/cli/compose/convert"
+	"github.com/harness-community/docker-cli-v23/opts"
+	"github.com/harness-community/docker-v23/api/types"
+	"github.com/harness-community/docker-v23/api/types/filters"
+	"github.com/harness-community/docker-v23/api/types/swarm"
+	"github.com/harness-community/docker-v23/client"
 )
 
 func getStackFilter(namespace string) filters.Args {

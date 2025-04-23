@@ -1,4 +1,4 @@
-package system // import "github.com/docker/docker/pkg/system"
+package system // import "github.com/harness-community/docker-v23/pkg/system"
 
 import (
 	"errors"

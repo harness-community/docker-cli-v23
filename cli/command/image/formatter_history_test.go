@@ -7,10 +7,10 @@ import (
 	"testing"
 	"time"
 
-	"github.com/docker/cli/cli/command/formatter"
-	"github.com/docker/cli/internal/test"
-	"github.com/docker/docker/api/types/image"
-	"github.com/docker/docker/pkg/stringid"
+	"github.com/harness-community/docker-cli-v23/cli/command/formatter"
+	"github.com/harness-community/docker-cli-v23/internal/test"
+	"github.com/harness-community/docker-v23/api/types/image"
+	"github.com/harness-community/docker-v23/pkg/stringid"
 	"gotest.tools/v3/assert"
 )
 

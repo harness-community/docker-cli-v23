@@ -3,9 +3,9 @@ package node
 import (
 	"fmt"
 
-	"github.com/docker/cli/cli"
-	"github.com/docker/cli/cli/command"
-	"github.com/docker/docker/api/types/swarm"
+	"github.com/harness-community/docker-cli-v23/cli"
+	"github.com/harness-community/docker-cli-v23/cli/command"
+	"github.com/harness-community/docker-v23/api/types/swarm"
 	"github.com/spf13/cobra"
 )
 

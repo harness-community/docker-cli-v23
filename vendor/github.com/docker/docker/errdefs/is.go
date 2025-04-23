@@ -1,4 +1,4 @@
-package errdefs // import "github.com/docker/docker/errdefs"
+package errdefs // import "github.com/harness-community/docker-v23/errdefs"
 
 type causer interface {
 	Cause() error

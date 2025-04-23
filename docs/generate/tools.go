@@ -4,5 +4,5 @@
 package main
 
 import (
-	_ "github.com/docker/cli-docs-tool"
+	_ "github.com/harness-community/docker-cli-v23-docs-tool"
 )
