@@ -4,12 +4,12 @@ import (
 	"context"
 	"strings"
 
-	"github.com/DevanshMathur19/docker-cli-v23/cli/compose/convert"
-	"github.com/DevanshMathur19/docker-v23/api"
-	"github.com/DevanshMathur19/docker-v23/api/types"
-	"github.com/DevanshMathur19/docker-v23/api/types/filters"
-	"github.com/DevanshMathur19/docker-v23/api/types/swarm"
-	"github.com/DevanshMathur19/docker-v23/client"
+	"github.com/harness-community/docker-cli-v23/cli/compose/convert"
+	"github.com/harness-community/docker-v23/api"
+	"github.com/harness-community/docker-v23/api/types"
+	"github.com/harness-community/docker-v23/api/types/filters"
+	"github.com/harness-community/docker-v23/api/types/swarm"
+	"github.com/harness-community/docker-v23/client"
 )
 
 type fakeClient struct {

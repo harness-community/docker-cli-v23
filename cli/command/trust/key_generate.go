@@ -8,9 +8,9 @@ import (
 	"regexp"
 	"strings"
 
-	"github.com/DevanshMathur19/docker-cli-v23/cli"
-	"github.com/DevanshMathur19/docker-cli-v23/cli/command"
-	"github.com/DevanshMathur19/docker-cli-v23/cli/trust"
+	"github.com/harness-community/docker-cli-v23/cli"
+	"github.com/harness-community/docker-cli-v23/cli/command"
+	"github.com/harness-community/docker-cli-v23/cli/trust"
 	"github.com/pkg/errors"
 	"github.com/spf13/cobra"
 	"github.com/theupdateframework/notary"

@@ -4,11 +4,11 @@ import (
 	"context"
 	"fmt"
 
-	"github.com/DevanshMathur19/docker-cli-v23/cli/command"
-	"github.com/DevanshMathur19/docker-cli-v23/cli/command/idresolver"
-	"github.com/DevanshMathur19/docker-cli-v23/cli/command/stack/options"
-	"github.com/DevanshMathur19/docker-cli-v23/cli/command/task"
-	"github.com/DevanshMathur19/docker-v23/api/types"
+	"github.com/harness-community/docker-cli-v23/cli/command"
+	"github.com/harness-community/docker-cli-v23/cli/command/idresolver"
+	"github.com/harness-community/docker-cli-v23/cli/command/stack/options"
+	"github.com/harness-community/docker-cli-v23/cli/command/task"
+	"github.com/harness-community/docker-v23/api/types"
 )
 
 // RunPS is the swarm implementation of docker stack ps

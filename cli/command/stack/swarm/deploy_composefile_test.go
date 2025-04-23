@@ -4,8 +4,8 @@ import (
 	"context"
 	"testing"
 
-	"github.com/DevanshMathur19/docker-cli-v23/internal/test/network"
-	"github.com/DevanshMathur19/docker-v23/api/types"
+	"github.com/harness-community/docker-cli-v23/internal/test/network"
+	"github.com/harness-community/docker-v23/api/types"
 	"github.com/pkg/errors"
 	"gotest.tools/v3/assert"
 )

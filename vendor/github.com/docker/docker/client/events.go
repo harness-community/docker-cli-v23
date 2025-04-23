@@ -1,4 +1,4 @@
-package client // import "github.com/DevanshMathur19/docker-v23/client"
+package client // import "github.com/harness-community/docker-v23/client"
 
 import (
 	"context"
@@ -6,10 +6,10 @@ import (
 	"net/url"
 	"time"
 
-	"github.com/DevanshMathur19/docker-v23/api/types"
-	"github.com/DevanshMathur19/docker-v23/api/types/events"
-	"github.com/DevanshMathur19/docker-v23/api/types/filters"
-	timetypes "github.com/DevanshMathur19/docker-v23/api/types/time"
+	"github.com/harness-community/docker-v23/api/types"
+	"github.com/harness-community/docker-v23/api/types/events"
+	"github.com/harness-community/docker-v23/api/types/filters"
+	timetypes "github.com/harness-community/docker-v23/api/types/time"
 )
 
 // Events returns a stream of events in the daemon. It's up to the caller to close the stream

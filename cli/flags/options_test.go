@@ -4,7 +4,7 @@ import (
 	"path/filepath"
 	"testing"
 
-	"github.com/DevanshMathur19/docker-cli-v23/cli/config"
+	"github.com/harness-community/docker-cli-v23/cli/config"
 	"github.com/spf13/pflag"
 	"gotest.tools/v3/assert"
 	is "gotest.tools/v3/assert/cmp"

@@ -3,7 +3,7 @@ package builders
 import (
 	"time"
 
-	"github.com/DevanshMathur19/docker-v23/api/types"
+	"github.com/harness-community/docker-v23/api/types"
 )
 
 // Container creates a container with default values.

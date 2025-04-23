@@ -1,4 +1,4 @@
-package client // import "github.com/DevanshMathur19/docker-v23/client"
+package client // import "github.com/harness-community/docker-v23/client"
 
 import (
 	"context"
@@ -6,8 +6,8 @@ import (
 	"net/url"
 	"time"
 
-	"github.com/DevanshMathur19/docker-v23/api/types"
-	timetypes "github.com/DevanshMathur19/docker-v23/api/types/time"
+	"github.com/harness-community/docker-v23/api/types"
+	timetypes "github.com/harness-community/docker-v23/api/types/time"
 	"github.com/pkg/errors"
 )
 
@@ -31,7 +31,7 @@ import (
 // SIZE1, SIZE2, SIZE3, and SIZE4 are four bytes of uint32 encoded as big endian.
 // This is the size of OUTPUT.
 //
-// You can use github.com/DevanshMathur19/docker-v23/pkg/stdcopy.StdCopy to demultiplex this
+// You can use github.com/harness-community/docker-v23/pkg/stdcopy.StdCopy to demultiplex this
 // stream.
 func (cli *Client) ContainerLogs(ctx context.Context, container string, options types.ContainerLogsOptions) (io.ReadCloser, error) {
 	query := url.Values{}

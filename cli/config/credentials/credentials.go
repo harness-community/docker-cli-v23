@@ -1,7 +1,7 @@
 package credentials
 
 import (
-	"github.com/DevanshMathur19/docker-cli-v23/cli/config/types"
+	"github.com/harness-community/docker-cli-v23/cli/config/types"
 )
 
 // Store is the interface that any credentials store must implement.

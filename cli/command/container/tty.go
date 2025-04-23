@@ -8,9 +8,9 @@ import (
 	"runtime"
 	"time"
 
-	"github.com/DevanshMathur19/docker-cli-v23/cli/command"
-	"github.com/DevanshMathur19/docker-v23/api/types"
-	"github.com/DevanshMathur19/docker-v23/client"
+	"github.com/harness-community/docker-cli-v23/cli/command"
+	"github.com/harness-community/docker-v23/api/types"
+	"github.com/harness-community/docker-v23/client"
 	"github.com/moby/sys/signal"
 	"github.com/sirupsen/logrus"
 )

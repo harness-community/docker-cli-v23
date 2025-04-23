@@ -1,4 +1,4 @@
-package client // import "github.com/DevanshMathur19/docker-v23/client"
+package client // import "github.com/harness-community/docker-v23/client"
 
 // DefaultDockerHost defines OS-specific default host if the DOCKER_HOST
 // (EnvOverrideHost) environment variable is unset or empty.

@@ -4,8 +4,8 @@ import (
 	"io"
 	"testing"
 
-	"github.com/DevanshMathur19/docker-cli-v23/internal/test"
-	"github.com/DevanshMathur19/docker-v23/api/types"
+	"github.com/harness-community/docker-cli-v23/internal/test"
+	"github.com/harness-community/docker-v23/api/types"
 	"github.com/docker/go-connections/nat"
 	"gotest.tools/v3/assert"
 	"gotest.tools/v3/golden"

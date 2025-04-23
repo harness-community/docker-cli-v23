@@ -8,9 +8,9 @@ import (
 	"path/filepath"
 	"testing"
 
-	"github.com/DevanshMathur19/docker-cli-v23/e2e/internal/fixtures"
-	"github.com/DevanshMathur19/docker-cli-v23/internal/test/environment"
-	"github.com/DevanshMathur19/docker-v23/api/types"
+	"github.com/harness-community/docker-cli-v23/e2e/internal/fixtures"
+	"github.com/harness-community/docker-cli-v23/internal/test/environment"
+	"github.com/harness-community/docker-v23/api/types"
 	"github.com/pkg/errors"
 	"gotest.tools/v3/assert"
 	"gotest.tools/v3/fs"

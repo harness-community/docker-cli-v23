@@ -8,9 +8,9 @@ import (
 	"runtime"
 	"testing"
 
-	"github.com/DevanshMathur19/docker-cli-v23/cli/config"
-	"github.com/DevanshMathur19/docker-cli-v23/internal/test"
-	notaryfake "github.com/DevanshMathur19/docker-cli-v23/internal/test/notary"
+	"github.com/harness-community/docker-cli-v23/cli/config"
+	"github.com/harness-community/docker-cli-v23/internal/test"
+	notaryfake "github.com/harness-community/docker-cli-v23/internal/test/notary"
 	"github.com/theupdateframework/notary"
 	"gotest.tools/v3/assert"
 	is "gotest.tools/v3/assert/cmp"

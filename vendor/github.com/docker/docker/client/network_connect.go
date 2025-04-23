@@ -1,10 +1,10 @@
-package client // import "github.com/DevanshMathur19/docker-v23/client"
+package client // import "github.com/harness-community/docker-v23/client"
 
 import (
 	"context"
 
-	"github.com/DevanshMathur19/docker-v23/api/types"
-	"github.com/DevanshMathur19/docker-v23/api/types/network"
+	"github.com/harness-community/docker-v23/api/types"
+	"github.com/harness-community/docker-v23/api/types/network"
 )
 
 // NetworkConnect connects a container to an existent network in the docker host.

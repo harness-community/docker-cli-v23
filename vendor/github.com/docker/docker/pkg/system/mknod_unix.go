@@ -1,7 +1,7 @@
 //go:build !freebsd && !windows
 // +build !freebsd,!windows
 
-package system // import "github.com/DevanshMathur19/docker-v23/pkg/system"
+package system // import "github.com/harness-community/docker-v23/pkg/system"
 
 import (
 	"golang.org/x/sys/unix"

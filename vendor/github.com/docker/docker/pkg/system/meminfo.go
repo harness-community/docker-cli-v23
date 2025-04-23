@@ -1,4 +1,4 @@
-package system // import "github.com/DevanshMathur19/docker-v23/pkg/system"
+package system // import "github.com/harness-community/docker-v23/pkg/system"
 
 // MemInfo contains memory statistics of the host system.
 type MemInfo struct {

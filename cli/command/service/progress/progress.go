@@ -11,13 +11,13 @@ import (
 	"strings"
 	"time"
 
-	"github.com/DevanshMathur19/docker-v23/api/types"
-	"github.com/DevanshMathur19/docker-v23/api/types/filters"
-	"github.com/DevanshMathur19/docker-v23/api/types/swarm"
-	"github.com/DevanshMathur19/docker-v23/client"
-	"github.com/DevanshMathur19/docker-v23/pkg/progress"
-	"github.com/DevanshMathur19/docker-v23/pkg/streamformatter"
-	"github.com/DevanshMathur19/docker-v23/pkg/stringid"
+	"github.com/harness-community/docker-v23/api/types"
+	"github.com/harness-community/docker-v23/api/types/filters"
+	"github.com/harness-community/docker-v23/api/types/swarm"
+	"github.com/harness-community/docker-v23/client"
+	"github.com/harness-community/docker-v23/pkg/progress"
+	"github.com/harness-community/docker-v23/pkg/streamformatter"
+	"github.com/harness-community/docker-v23/pkg/stringid"
 )
 
 var (

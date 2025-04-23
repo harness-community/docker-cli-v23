@@ -1,12 +1,12 @@
-package archive // import "github.com/DevanshMathur19/docker-v23/pkg/archive"
+package archive // import "github.com/harness-community/docker-v23/pkg/archive"
 
 import (
 	"archive/tar"
 	"os"
 	"path/filepath"
 
-	"github.com/DevanshMathur19/docker-v23/pkg/idtools"
-	"github.com/DevanshMathur19/docker-v23/pkg/longpath"
+	"github.com/harness-community/docker-v23/pkg/idtools"
+	"github.com/harness-community/docker-v23/pkg/longpath"
 )
 
 // fixVolumePathPrefix does platform specific processing to ensure that if

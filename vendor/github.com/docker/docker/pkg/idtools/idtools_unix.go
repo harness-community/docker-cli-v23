@@ -1,7 +1,7 @@
 //go:build !windows
 // +build !windows
 
-package idtools // import "github.com/DevanshMathur19/docker-v23/pkg/idtools"
+package idtools // import "github.com/harness-community/docker-v23/pkg/idtools"
 
 import (
 	"bytes"
@@ -14,7 +14,7 @@ import (
 	"sync"
 	"syscall"
 
-	"github.com/DevanshMathur19/docker-v23/pkg/system"
+	"github.com/harness-community/docker-v23/pkg/system"
 	"github.com/opencontainers/runc/libcontainer/user"
 	"github.com/pkg/errors"
 )

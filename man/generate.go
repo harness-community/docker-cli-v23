@@ -13,8 +13,8 @@ import (
 	"strconv"
 	"time"
 
-	"github.com/DevanshMathur19/docker-cli-v23/cli/command"
-	"github.com/DevanshMathur19/docker-cli-v23/cli/command/commands"
+	"github.com/harness-community/docker-cli-v23/cli/command"
+	"github.com/harness-community/docker-cli-v23/cli/command/commands"
 	"github.com/spf13/cobra"
 	"github.com/spf13/cobra/doc"
 	"github.com/spf13/pflag"

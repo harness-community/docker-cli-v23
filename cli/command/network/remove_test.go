@@ -5,8 +5,8 @@ import (
 	"io"
 	"testing"
 
-	"github.com/DevanshMathur19/docker-cli-v23/internal/test"
-	"github.com/DevanshMathur19/docker-v23/errdefs"
+	"github.com/harness-community/docker-cli-v23/internal/test"
+	"github.com/harness-community/docker-v23/errdefs"
 	"github.com/pkg/errors"
 	"gotest.tools/v3/assert"
 	is "gotest.tools/v3/assert/cmp"

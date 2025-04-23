@@ -8,8 +8,8 @@ import (
 	"strings"
 	"time"
 
-	"github.com/DevanshMathur19/docker-cli-v23/opts"
-	"github.com/DevanshMathur19/docker-v23/api/types/swarm"
+	"github.com/harness-community/docker-cli-v23/opts"
+	"github.com/harness-community/docker-v23/api/types/swarm"
 	"github.com/pkg/errors"
 	"github.com/spf13/pflag"
 )

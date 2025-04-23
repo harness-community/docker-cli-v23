@@ -1,4 +1,4 @@
-package types // import "github.com/DevanshMathur19/docker-v23/api/types"
+package types // import "github.com/harness-community/docker-v23/api/types"
 
 import (
 	"errors"
@@ -8,13 +8,13 @@ import (
 	"strings"
 	"time"
 
-	"github.com/DevanshMathur19/docker-v23/api/types/container"
-	"github.com/DevanshMathur19/docker-v23/api/types/filters"
-	"github.com/DevanshMathur19/docker-v23/api/types/mount"
-	"github.com/DevanshMathur19/docker-v23/api/types/network"
-	"github.com/DevanshMathur19/docker-v23/api/types/registry"
-	"github.com/DevanshMathur19/docker-v23/api/types/swarm"
-	"github.com/DevanshMathur19/docker-v23/api/types/volume"
+	"github.com/harness-community/docker-v23/api/types/container"
+	"github.com/harness-community/docker-v23/api/types/filters"
+	"github.com/harness-community/docker-v23/api/types/mount"
+	"github.com/harness-community/docker-v23/api/types/network"
+	"github.com/harness-community/docker-v23/api/types/registry"
+	"github.com/harness-community/docker-v23/api/types/swarm"
+	"github.com/harness-community/docker-v23/api/types/volume"
 	"github.com/docker/go-connections/nat"
 )
 
@@ -526,7 +526,7 @@ type DefaultNetworkSettings struct {
 // This is used for reporting the mountpoints in use by a container.
 type MountPoint struct {
 	// Type is the type of mount, see `Type<foo>` definitions in
-	// github.com/DevanshMathur19/docker-v23/api/types/mount.Type
+	// github.com/harness-community/docker-v23/api/types/mount.Type
 	Type mount.Type `json:",omitempty"`
 
 	// Name is the name reference to the underlying data defined by `Source`

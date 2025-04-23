@@ -3,7 +3,7 @@ package builders
 import (
 	"time"
 
-	"github.com/DevanshMathur19/docker-v23/api/types/swarm"
+	"github.com/harness-community/docker-v23/api/types/swarm"
 )
 
 // Config creates a config with default values.

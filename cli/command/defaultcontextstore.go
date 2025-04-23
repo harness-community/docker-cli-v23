@@ -1,10 +1,10 @@
 package command
 
 import (
-	"github.com/DevanshMathur19/docker-cli-v23/cli/context/docker"
-	"github.com/DevanshMathur19/docker-cli-v23/cli/context/store"
-	cliflags "github.com/DevanshMathur19/docker-cli-v23/cli/flags"
-	"github.com/DevanshMathur19/docker-v23/errdefs"
+	"github.com/harness-community/docker-cli-v23/cli/context/docker"
+	"github.com/harness-community/docker-cli-v23/cli/context/store"
+	cliflags "github.com/harness-community/docker-cli-v23/cli/flags"
+	"github.com/harness-community/docker-v23/errdefs"
 	"github.com/pkg/errors"
 )
 

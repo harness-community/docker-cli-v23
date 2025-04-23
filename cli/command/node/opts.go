@@ -1,7 +1,7 @@
 package node
 
 import (
-	"github.com/DevanshMathur19/docker-cli-v23/opts"
+	"github.com/harness-community/docker-cli-v23/opts"
 )
 
 type nodeOptions struct {

@@ -1,4 +1,4 @@
-package mount // import "github.com/DevanshMathur19/docker-v23/api/types/mount"
+package mount // import "github.com/harness-community/docker-v23/api/types/mount"
 
 import (
 	"os"

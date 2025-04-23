@@ -4,9 +4,9 @@ import (
 	"fmt"
 	"os"
 
-	"github.com/DevanshMathur19/docker-cli-v23/cli/command"
-	"github.com/DevanshMathur19/docker-cli-v23/cli/context/store"
-	"github.com/DevanshMathur19/docker-v23/client"
+	"github.com/harness-community/docker-cli-v23/cli/command"
+	"github.com/harness-community/docker-cli-v23/cli/context/store"
+	"github.com/harness-community/docker-v23/client"
 	"github.com/spf13/cobra"
 )
 

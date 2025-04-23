@@ -5,8 +5,8 @@ import (
 	"strconv"
 	"testing"
 
-	"github.com/DevanshMathur19/docker-v23/api/types/swarm"
-	"github.com/DevanshMathur19/docker-v23/pkg/progress"
+	"github.com/harness-community/docker-v23/api/types/swarm"
+	"github.com/harness-community/docker-v23/pkg/progress"
 	"gotest.tools/v3/assert"
 	is "gotest.tools/v3/assert/cmp"
 )

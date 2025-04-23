@@ -4,12 +4,12 @@ import (
 	"context"
 	"strconv"
 
-	"github.com/DevanshMathur19/docker-cli-v23/cli/command"
-	"github.com/DevanshMathur19/docker-v23/api/types"
-	"github.com/DevanshMathur19/docker-v23/api/types/container"
-	"github.com/DevanshMathur19/docker-v23/api/types/events"
-	"github.com/DevanshMathur19/docker-v23/api/types/filters"
-	"github.com/DevanshMathur19/docker-v23/api/types/versions"
+	"github.com/harness-community/docker-cli-v23/cli/command"
+	"github.com/harness-community/docker-v23/api/types"
+	"github.com/harness-community/docker-v23/api/types/container"
+	"github.com/harness-community/docker-v23/api/types/events"
+	"github.com/harness-community/docker-v23/api/types/filters"
+	"github.com/harness-community/docker-v23/api/types/versions"
 	"github.com/sirupsen/logrus"
 )
 

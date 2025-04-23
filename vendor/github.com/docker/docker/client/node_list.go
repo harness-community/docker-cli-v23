@@ -1,13 +1,13 @@
-package client // import "github.com/DevanshMathur19/docker-v23/client"
+package client // import "github.com/harness-community/docker-v23/client"
 
 import (
 	"context"
 	"encoding/json"
 	"net/url"
 
-	"github.com/DevanshMathur19/docker-v23/api/types"
-	"github.com/DevanshMathur19/docker-v23/api/types/filters"
-	"github.com/DevanshMathur19/docker-v23/api/types/swarm"
+	"github.com/harness-community/docker-v23/api/types"
+	"github.com/harness-community/docker-v23/api/types/filters"
+	"github.com/harness-community/docker-v23/api/types/swarm"
 )
 
 // NodeList returns the list of nodes.

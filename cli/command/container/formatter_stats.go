@@ -4,8 +4,8 @@ import (
 	"strconv"
 	"sync"
 
-	"github.com/DevanshMathur19/docker-cli-v23/cli/command/formatter"
-	"github.com/DevanshMathur19/docker-v23/pkg/stringid"
+	"github.com/harness-community/docker-cli-v23/cli/command/formatter"
+	"github.com/harness-community/docker-v23/pkg/stringid"
 	units "github.com/docker/go-units"
 )
 

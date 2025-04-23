@@ -3,9 +3,9 @@ package network
 import (
 	"context"
 
-	"github.com/DevanshMathur19/docker-v23/api/types"
-	"github.com/DevanshMathur19/docker-v23/api/types/network"
-	"github.com/DevanshMathur19/docker-v23/client"
+	"github.com/harness-community/docker-v23/api/types"
+	"github.com/harness-community/docker-v23/api/types/network"
+	"github.com/harness-community/docker-v23/client"
 )
 
 type fakeClient struct {

@@ -3,7 +3,7 @@ package trust
 import (
 	"testing"
 
-	"github.com/DevanshMathur19/docker-cli-v23/cli/trust"
+	"github.com/harness-community/docker-cli-v23/cli/trust"
 	"github.com/theupdateframework/notary/client"
 	"github.com/theupdateframework/notary/tuf/data"
 	"gotest.tools/v3/assert"

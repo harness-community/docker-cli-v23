@@ -1,9 +1,9 @@
 package container
 
 import (
-	"github.com/DevanshMathur19/docker-cli-v23/cli/command/formatter"
-	"github.com/DevanshMathur19/docker-v23/api/types/container"
-	"github.com/DevanshMathur19/docker-v23/pkg/archive"
+	"github.com/harness-community/docker-cli-v23/cli/command/formatter"
+	"github.com/harness-community/docker-v23/api/types/container"
+	"github.com/harness-community/docker-v23/pkg/archive"
 )
 
 const (

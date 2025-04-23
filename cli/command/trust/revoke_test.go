@@ -4,9 +4,9 @@ import (
 	"io"
 	"testing"
 
-	"github.com/DevanshMathur19/docker-cli-v23/cli/trust"
-	"github.com/DevanshMathur19/docker-cli-v23/internal/test"
-	"github.com/DevanshMathur19/docker-cli-v23/internal/test/notary"
+	"github.com/harness-community/docker-cli-v23/cli/trust"
+	"github.com/harness-community/docker-cli-v23/internal/test"
+	"github.com/harness-community/docker-cli-v23/internal/test/notary"
 	"github.com/theupdateframework/notary/client"
 	"github.com/theupdateframework/notary/passphrase"
 	"github.com/theupdateframework/notary/trustpinning"

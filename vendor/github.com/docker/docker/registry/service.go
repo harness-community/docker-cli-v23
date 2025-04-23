@@ -1,4 +1,4 @@
-package registry // import "github.com/DevanshMathur19/docker-v23/registry"
+package registry // import "github.com/harness-community/docker-v23/registry"
 
 import (
 	"context"
@@ -10,9 +10,9 @@ import (
 
 	"github.com/docker/distribution/reference"
 	"github.com/docker/distribution/registry/client/auth"
-	"github.com/DevanshMathur19/docker-v23/api/types"
-	"github.com/DevanshMathur19/docker-v23/api/types/registry"
-	"github.com/DevanshMathur19/docker-v23/errdefs"
+	"github.com/harness-community/docker-v23/api/types"
+	"github.com/harness-community/docker-v23/api/types/registry"
+	"github.com/harness-community/docker-v23/errdefs"
 	"github.com/sirupsen/logrus"
 )
 

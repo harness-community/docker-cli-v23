@@ -4,11 +4,11 @@ import (
 	"fmt"
 	"testing"
 
-	"github.com/DevanshMathur19/docker-cli-v23/cli/command"
-	"github.com/DevanshMathur19/docker-cli-v23/cli/config/configfile"
-	"github.com/DevanshMathur19/docker-cli-v23/cli/context/docker"
-	"github.com/DevanshMathur19/docker-cli-v23/cli/context/store"
-	"github.com/DevanshMathur19/docker-cli-v23/internal/test"
+	"github.com/harness-community/docker-cli-v23/cli/command"
+	"github.com/harness-community/docker-cli-v23/cli/config/configfile"
+	"github.com/harness-community/docker-cli-v23/cli/context/docker"
+	"github.com/harness-community/docker-cli-v23/cli/context/store"
+	"github.com/harness-community/docker-cli-v23/internal/test"
 	"gotest.tools/v3/assert"
 )
 

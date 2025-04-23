@@ -3,13 +3,13 @@ package stack
 import (
 	"fmt"
 
-	"github.com/DevanshMathur19/docker-cli-v23/cli"
-	"github.com/DevanshMathur19/docker-cli-v23/cli/command"
-	"github.com/DevanshMathur19/docker-cli-v23/cli/command/completion"
-	"github.com/DevanshMathur19/docker-cli-v23/cli/command/stack/loader"
-	"github.com/DevanshMathur19/docker-cli-v23/cli/command/stack/options"
-	composeLoader "github.com/DevanshMathur19/docker-cli-v23/cli/compose/loader"
-	composetypes "github.com/DevanshMathur19/docker-cli-v23/cli/compose/types"
+	"github.com/harness-community/docker-cli-v23/cli"
+	"github.com/harness-community/docker-cli-v23/cli/command"
+	"github.com/harness-community/docker-cli-v23/cli/command/completion"
+	"github.com/harness-community/docker-cli-v23/cli/command/stack/loader"
+	"github.com/harness-community/docker-cli-v23/cli/command/stack/options"
+	composeLoader "github.com/harness-community/docker-cli-v23/cli/compose/loader"
+	composetypes "github.com/harness-community/docker-cli-v23/cli/compose/types"
 	"github.com/spf13/cobra"
 	yaml "gopkg.in/yaml.v2"
 )

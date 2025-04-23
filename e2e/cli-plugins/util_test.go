@@ -5,8 +5,8 @@ import (
 	"os"
 	"testing"
 
-	"github.com/DevanshMathur19/docker-cli-v23/cli/config"
-	"github.com/DevanshMathur19/docker-cli-v23/cli/config/configfile"
+	"github.com/harness-community/docker-cli-v23/cli/config"
+	"github.com/harness-community/docker-cli-v23/cli/config/configfile"
 	"gotest.tools/v3/assert"
 	"gotest.tools/v3/fs"
 	"gotest.tools/v3/icmd"

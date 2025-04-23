@@ -4,10 +4,10 @@ import (
 	"os"
 	"strings"
 
-	composetypes "github.com/DevanshMathur19/docker-cli-v23/cli/compose/types"
-	"github.com/DevanshMathur19/docker-v23/api/types"
-	networktypes "github.com/DevanshMathur19/docker-v23/api/types/network"
-	"github.com/DevanshMathur19/docker-v23/api/types/swarm"
+	composetypes "github.com/harness-community/docker-cli-v23/cli/compose/types"
+	"github.com/harness-community/docker-v23/api/types"
+	networktypes "github.com/harness-community/docker-v23/api/types/network"
+	"github.com/harness-community/docker-v23/api/types/swarm"
 )
 
 const (

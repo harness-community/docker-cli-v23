@@ -8,7 +8,7 @@ import (
 	"strconv"
 	"strings"
 
-	"github.com/DevanshMathur19/docker-v23/api/types/swarm"
+	"github.com/harness-community/docker-v23/api/types/swarm"
 	"github.com/docker/go-connections/nat"
 	"github.com/sirupsen/logrus"
 )

@@ -4,7 +4,7 @@ import (
 	"bytes"
 	"testing"
 
-	"github.com/DevanshMathur19/docker-cli-v23/cli/command/formatter"
+	"github.com/harness-community/docker-cli-v23/cli/command/formatter"
 	"gotest.tools/v3/assert"
 )
 

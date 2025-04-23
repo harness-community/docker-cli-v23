@@ -4,12 +4,12 @@ import (
 	"context"
 	"fmt"
 
-	"github.com/DevanshMathur19/docker-cli-v23/cli/command"
-	"github.com/DevanshMathur19/docker-cli-v23/cli/command/stack/options"
-	"github.com/DevanshMathur19/docker-cli-v23/cli/compose/convert"
-	composetypes "github.com/DevanshMathur19/docker-cli-v23/cli/compose/types"
-	"github.com/DevanshMathur19/docker-v23/api/types/swarm"
-	"github.com/DevanshMathur19/docker-v23/api/types/versions"
+	"github.com/harness-community/docker-cli-v23/cli/command"
+	"github.com/harness-community/docker-cli-v23/cli/command/stack/options"
+	"github.com/harness-community/docker-cli-v23/cli/compose/convert"
+	composetypes "github.com/harness-community/docker-cli-v23/cli/compose/types"
+	"github.com/harness-community/docker-v23/api/types/swarm"
+	"github.com/harness-community/docker-v23/api/types/versions"
 	"github.com/pkg/errors"
 )
 

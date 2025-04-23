@@ -1,4 +1,4 @@
-module github.com/DevanshMathur19/docker-cli-v23
+module github.com/harness-community/docker-cli-v23
 
 // 'vendor.mod' enables use of 'go mod vendor' to managed 'vendor/' directory.
 // There is no 'go.mod' file, as that would imply opting in for all the rules
@@ -10,7 +10,7 @@ require (
 	github.com/containerd/containerd v1.6.19
 	github.com/creack/pty v1.1.11
 	github.com/docker/distribution v2.8.1+incompatible
-	github.com/DevanshMathur19/docker-v23 v23.0.6+incompatible
+	github.com/harness-community/docker-v23 v23.0.6+incompatible
 	github.com/docker/docker-credential-helpers v0.7.0
 	github.com/docker/go-connections v0.4.0
 	github.com/docker/go-units v0.5.0

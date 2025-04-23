@@ -6,8 +6,8 @@ import (
 	"net"
 	"net/url"
 
-	"github.com/DevanshMathur19/docker-cli-v23/cli/connhelper/commandconn"
-	"github.com/DevanshMathur19/docker-cli-v23/cli/connhelper/ssh"
+	"github.com/harness-community/docker-cli-v23/cli/connhelper/commandconn"
+	"github.com/harness-community/docker-cli-v23/cli/connhelper/ssh"
 	"github.com/pkg/errors"
 )
 

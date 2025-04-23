@@ -1,4 +1,4 @@
-package blkiodev // import "github.com/DevanshMathur19/docker-v23/api/types/blkiodev"
+package blkiodev // import "github.com/harness-community/docker-v23/api/types/blkiodev"
 
 import "fmt"
 

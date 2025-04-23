@@ -1,7 +1,7 @@
 package volume
 
 import (
-	"github.com/DevanshMathur19/docker-v23/api/types/swarm"
+	"github.com/harness-community/docker-v23/api/types/swarm"
 )
 
 // ClusterVolume contains options and information specific to, and only present

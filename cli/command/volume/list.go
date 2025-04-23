@@ -4,12 +4,12 @@ import (
 	"context"
 	"sort"
 
-	"github.com/DevanshMathur19/docker-cli-v23/cli"
-	"github.com/DevanshMathur19/docker-cli-v23/cli/command"
-	"github.com/DevanshMathur19/docker-cli-v23/cli/command/completion"
-	"github.com/DevanshMathur19/docker-cli-v23/cli/command/formatter"
-	flagsHelper "github.com/DevanshMathur19/docker-cli-v23/cli/flags"
-	"github.com/DevanshMathur19/docker-cli-v23/opts"
+	"github.com/harness-community/docker-cli-v23/cli"
+	"github.com/harness-community/docker-cli-v23/cli/command"
+	"github.com/harness-community/docker-cli-v23/cli/command/completion"
+	"github.com/harness-community/docker-cli-v23/cli/command/formatter"
+	flagsHelper "github.com/harness-community/docker-cli-v23/cli/flags"
+	"github.com/harness-community/docker-cli-v23/opts"
 	"github.com/fvbommel/sortorder"
 	"github.com/spf13/cobra"
 )

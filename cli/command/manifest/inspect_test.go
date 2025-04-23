@@ -5,9 +5,9 @@ import (
 	"io"
 	"testing"
 
-	"github.com/DevanshMathur19/docker-cli-v23/cli/manifest/store"
-	"github.com/DevanshMathur19/docker-cli-v23/cli/manifest/types"
-	"github.com/DevanshMathur19/docker-cli-v23/internal/test"
+	"github.com/harness-community/docker-cli-v23/cli/manifest/store"
+	"github.com/harness-community/docker-cli-v23/cli/manifest/types"
+	"github.com/harness-community/docker-cli-v23/internal/test"
 	"github.com/docker/distribution"
 	"github.com/docker/distribution/manifest/schema2"
 	"github.com/docker/distribution/reference"

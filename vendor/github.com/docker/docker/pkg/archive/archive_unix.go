@@ -1,7 +1,7 @@
 //go:build !windows
 // +build !windows
 
-package archive // import "github.com/DevanshMathur19/docker-v23/pkg/archive"
+package archive // import "github.com/harness-community/docker-v23/pkg/archive"
 
 import (
 	"archive/tar"
@@ -12,8 +12,8 @@ import (
 	"syscall"
 
 	"github.com/containerd/containerd/pkg/userns"
-	"github.com/DevanshMathur19/docker-v23/pkg/idtools"
-	"github.com/DevanshMathur19/docker-v23/pkg/system"
+	"github.com/harness-community/docker-v23/pkg/idtools"
+	"github.com/harness-community/docker-v23/pkg/system"
 	"golang.org/x/sys/unix"
 )
 

@@ -19,8 +19,8 @@ For example, to list running containers (the equivalent of "docker ps"):
 		"context"
 		"fmt"
 
-		"github.com/DevanshMathur19/docker-v23/api/types"
-		"github.com/DevanshMathur19/docker-v23/client"
+		"github.com/harness-community/docker-v23/api/types"
+		"github.com/harness-community/docker-v23/client"
 	)
 
 	func main() {
@@ -39,7 +39,7 @@ For example, to list running containers (the equivalent of "docker ps"):
 		}
 	}
 */
-package client // import "github.com/DevanshMathur19/docker-v23/client"
+package client // import "github.com/harness-community/docker-v23/client"
 
 import (
 	"context"
@@ -49,9 +49,9 @@ import (
 	"path"
 	"strings"
 
-	"github.com/DevanshMathur19/docker-v23/api"
-	"github.com/DevanshMathur19/docker-v23/api/types"
-	"github.com/DevanshMathur19/docker-v23/api/types/versions"
+	"github.com/harness-community/docker-v23/api"
+	"github.com/harness-community/docker-v23/api/types"
+	"github.com/harness-community/docker-v23/api/types/versions"
 	"github.com/docker/go-connections/sockets"
 	"github.com/pkg/errors"
 )

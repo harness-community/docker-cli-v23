@@ -6,7 +6,7 @@ import (
 	"strings"
 	"testing"
 
-	"github.com/DevanshMathur19/docker-cli-v23/internal/test/environment"
+	"github.com/harness-community/docker-cli-v23/internal/test/environment"
 	"gotest.tools/v3/assert"
 	"gotest.tools/v3/icmd"
 	"gotest.tools/v3/skip"

@@ -1,4 +1,4 @@
-package client // import "github.com/DevanshMathur19/docker-v23/client"
+package client // import "github.com/harness-community/docker-v23/client"
 
 import (
 	"bufio"
@@ -11,8 +11,8 @@ import (
 	"net/url"
 	"time"
 
-	"github.com/DevanshMathur19/docker-v23/api/types"
-	"github.com/DevanshMathur19/docker-v23/api/types/versions"
+	"github.com/harness-community/docker-v23/api/types"
+	"github.com/harness-community/docker-v23/api/types/versions"
 	"github.com/docker/go-connections/sockets"
 	"github.com/pkg/errors"
 )

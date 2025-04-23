@@ -5,11 +5,11 @@ import (
 	"strconv"
 	"strings"
 
-	"github.com/DevanshMathur19/docker-cli-v23/cli/command"
-	"github.com/DevanshMathur19/docker-cli-v23/cli/context"
-	"github.com/DevanshMathur19/docker-cli-v23/cli/context/docker"
-	"github.com/DevanshMathur19/docker-cli-v23/cli/context/store"
-	"github.com/DevanshMathur19/docker-v23/client"
+	"github.com/harness-community/docker-cli-v23/cli/command"
+	"github.com/harness-community/docker-cli-v23/cli/context"
+	"github.com/harness-community/docker-cli-v23/cli/context/docker"
+	"github.com/harness-community/docker-cli-v23/cli/context/store"
+	"github.com/harness-community/docker-v23/client"
 	"github.com/pkg/errors"
 )
 

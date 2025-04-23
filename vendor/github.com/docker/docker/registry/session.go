@@ -1,4 +1,4 @@
-package registry // import "github.com/DevanshMathur19/docker-v23/registry"
+package registry // import "github.com/harness-community/docker-v23/registry"
 
 import (
 	// this is required for some certificates
@@ -11,11 +11,11 @@ import (
 	"strings"
 	"sync"
 
-	"github.com/DevanshMathur19/docker-v23/api/types"
-	"github.com/DevanshMathur19/docker-v23/api/types/registry"
-	"github.com/DevanshMathur19/docker-v23/errdefs"
-	"github.com/DevanshMathur19/docker-v23/pkg/ioutils"
-	"github.com/DevanshMathur19/docker-v23/pkg/jsonmessage"
+	"github.com/harness-community/docker-v23/api/types"
+	"github.com/harness-community/docker-v23/api/types/registry"
+	"github.com/harness-community/docker-v23/errdefs"
+	"github.com/harness-community/docker-v23/pkg/ioutils"
+	"github.com/harness-community/docker-v23/pkg/jsonmessage"
 	"github.com/pkg/errors"
 	"github.com/sirupsen/logrus"
 )

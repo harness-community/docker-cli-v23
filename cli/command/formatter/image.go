@@ -5,8 +5,8 @@ import (
 	"time"
 
 	"github.com/docker/distribution/reference"
-	"github.com/DevanshMathur19/docker-v23/api/types"
-	"github.com/DevanshMathur19/docker-v23/pkg/stringid"
+	"github.com/harness-community/docker-v23/api/types"
+	"github.com/harness-community/docker-v23/pkg/stringid"
 	units "github.com/docker/go-units"
 )
 

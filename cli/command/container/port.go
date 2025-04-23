@@ -8,9 +8,9 @@ import (
 	"strconv"
 	"strings"
 
-	"github.com/DevanshMathur19/docker-cli-v23/cli"
-	"github.com/DevanshMathur19/docker-cli-v23/cli/command"
-	"github.com/DevanshMathur19/docker-cli-v23/cli/command/completion"
+	"github.com/harness-community/docker-cli-v23/cli"
+	"github.com/harness-community/docker-cli-v23/cli/command"
+	"github.com/harness-community/docker-cli-v23/cli/command/completion"
 	"github.com/docker/go-connections/nat"
 	"github.com/fvbommel/sortorder"
 	"github.com/pkg/errors"

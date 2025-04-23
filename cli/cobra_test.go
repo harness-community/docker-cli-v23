@@ -3,7 +3,7 @@ package cli
 import (
 	"testing"
 
-	pluginmanager "github.com/DevanshMathur19/docker-cli-v23/cli-plugins/manager"
+	pluginmanager "github.com/harness-community/docker-cli-v23/cli-plugins/manager"
 	"github.com/google/go-cmp/cmp/cmpopts"
 	"github.com/spf13/cobra"
 	"gotest.tools/v3/assert"

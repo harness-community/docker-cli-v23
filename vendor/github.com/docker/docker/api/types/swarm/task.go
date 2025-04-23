@@ -1,9 +1,9 @@
-package swarm // import "github.com/DevanshMathur19/docker-v23/api/types/swarm"
+package swarm // import "github.com/harness-community/docker-v23/api/types/swarm"
 
 import (
 	"time"
 
-	"github.com/DevanshMathur19/docker-v23/api/types/swarm/runtime"
+	"github.com/harness-community/docker-v23/api/types/swarm/runtime"
 )
 
 // TaskState represents the state of a task.

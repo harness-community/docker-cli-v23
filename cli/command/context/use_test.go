@@ -8,12 +8,12 @@ import (
 	"path/filepath"
 	"testing"
 
-	"github.com/DevanshMathur19/docker-cli-v23/cli/command"
-	"github.com/DevanshMathur19/docker-cli-v23/cli/config"
-	"github.com/DevanshMathur19/docker-cli-v23/cli/config/configfile"
-	"github.com/DevanshMathur19/docker-cli-v23/cli/flags"
-	"github.com/DevanshMathur19/docker-v23/errdefs"
-	"github.com/DevanshMathur19/docker-v23/pkg/homedir"
+	"github.com/harness-community/docker-cli-v23/cli/command"
+	"github.com/harness-community/docker-cli-v23/cli/config"
+	"github.com/harness-community/docker-cli-v23/cli/config/configfile"
+	"github.com/harness-community/docker-cli-v23/cli/flags"
+	"github.com/harness-community/docker-v23/errdefs"
+	"github.com/harness-community/docker-v23/pkg/homedir"
 	"gotest.tools/v3/assert"
 	is "gotest.tools/v3/assert/cmp"
 )
@@ -111,7 +111,7 @@ func TestUseHostOverride(t *testing.T) {
 
 // An empty DOCKER_HOST used to break the 'context use' flow.
 // So we have a test with fewer fakes that tests this flow holistically.
-// https://github.com/DevanshMathur19/docker-cli-v23/issues/3667
+// https://github.com/harness-community/docker-cli-v23/issues/3667
 func TestUseHostOverrideEmpty(t *testing.T) {
 	t.Setenv("DOCKER_HOST", "")
 

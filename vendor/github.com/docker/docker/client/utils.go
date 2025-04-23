@@ -1,10 +1,10 @@
-package client // import "github.com/DevanshMathur19/docker-v23/client"
+package client // import "github.com/harness-community/docker-v23/client"
 
 import (
 	"net/url"
 	"regexp"
 
-	"github.com/DevanshMathur19/docker-v23/api/types/filters"
+	"github.com/harness-community/docker-v23/api/types/filters"
 )
 
 var headerRegexp = regexp.MustCompile(`\ADocker/.+\s\((.+)\)\z`)

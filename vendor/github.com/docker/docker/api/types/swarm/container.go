@@ -1,10 +1,10 @@
-package swarm // import "github.com/DevanshMathur19/docker-v23/api/types/swarm"
+package swarm // import "github.com/harness-community/docker-v23/api/types/swarm"
 
 import (
 	"time"
 
-	"github.com/DevanshMathur19/docker-v23/api/types/container"
-	"github.com/DevanshMathur19/docker-v23/api/types/mount"
+	"github.com/harness-community/docker-v23/api/types/container"
+	"github.com/harness-community/docker-v23/api/types/mount"
 	"github.com/docker/go-units"
 )
 

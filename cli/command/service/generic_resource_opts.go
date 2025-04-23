@@ -6,7 +6,7 @@ import (
 
 	"github.com/pkg/errors"
 
-	"github.com/DevanshMathur19/docker-v23/api/types/swarm"
+	"github.com/harness-community/docker-v23/api/types/swarm"
 	swarmapi "github.com/moby/swarmkit/v2/api"
 	"github.com/moby/swarmkit/v2/api/genericresource"
 )

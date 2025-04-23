@@ -3,7 +3,7 @@ package credentials
 import (
 	"strings"
 
-	"github.com/DevanshMathur19/docker-cli-v23/cli/config/types"
+	"github.com/harness-community/docker-cli-v23/cli/config/types"
 )
 
 type store interface {
@@ -66,7 +66,7 @@ func (c *fileStore) IsFileStore() bool {
 
 // ConvertToHostname converts a registry url which has http|https prepended
 // to just an hostname.
-// Copied from github.com/DevanshMathur19/docker-v23/registry.ConvertToHostname to reduce dependencies.
+// Copied from github.com/harness-community/docker-v23/registry.ConvertToHostname to reduce dependencies.
 func ConvertToHostname(url string) string {
 	stripped := url
 	if strings.HasPrefix(url, "http://") {

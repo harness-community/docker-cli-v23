@@ -5,7 +5,7 @@ import (
 	"strconv"
 	"strings"
 
-	"github.com/DevanshMathur19/docker-v23/api/types/blkiodev"
+	"github.com/harness-community/docker-v23/api/types/blkiodev"
 )
 
 // ValidatorWeightFctType defines a validator function that returns a validated struct and/or an error.

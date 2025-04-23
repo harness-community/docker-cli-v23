@@ -1,11 +1,11 @@
-package container // import "github.com/DevanshMathur19/docker-v23/api/types/container"
+package container // import "github.com/harness-community/docker-v23/api/types/container"
 
 import (
 	"strings"
 
-	"github.com/DevanshMathur19/docker-v23/api/types/blkiodev"
-	"github.com/DevanshMathur19/docker-v23/api/types/mount"
-	"github.com/DevanshMathur19/docker-v23/api/types/strslice"
+	"github.com/harness-community/docker-v23/api/types/blkiodev"
+	"github.com/harness-community/docker-v23/api/types/mount"
+	"github.com/harness-community/docker-v23/api/types/strslice"
 	"github.com/docker/go-connections/nat"
 	units "github.com/docker/go-units"
 )

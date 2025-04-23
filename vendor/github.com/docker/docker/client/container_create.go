@@ -1,4 +1,4 @@
-package client // import "github.com/DevanshMathur19/docker-v23/client"
+package client // import "github.com/harness-community/docker-v23/client"
 
 import (
 	"context"
@@ -6,9 +6,9 @@ import (
 	"net/url"
 	"path"
 
-	"github.com/DevanshMathur19/docker-v23/api/types/container"
-	"github.com/DevanshMathur19/docker-v23/api/types/network"
-	"github.com/DevanshMathur19/docker-v23/api/types/versions"
+	"github.com/harness-community/docker-v23/api/types/container"
+	"github.com/harness-community/docker-v23/api/types/network"
+	"github.com/harness-community/docker-v23/api/types/versions"
 	specs "github.com/opencontainers/image-spec/specs-go/v1"
 )
 

@@ -4,10 +4,10 @@ import (
 	"context"
 	"io"
 
-	"github.com/DevanshMathur19/docker-v23/api/types"
-	"github.com/DevanshMathur19/docker-v23/api/types/container"
-	"github.com/DevanshMathur19/docker-v23/api/types/network"
-	"github.com/DevanshMathur19/docker-v23/client"
+	"github.com/harness-community/docker-v23/api/types"
+	"github.com/harness-community/docker-v23/api/types/container"
+	"github.com/harness-community/docker-v23/api/types/network"
+	"github.com/harness-community/docker-v23/client"
 	specs "github.com/opencontainers/image-spec/specs-go/v1"
 )
 

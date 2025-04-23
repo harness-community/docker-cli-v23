@@ -1,4 +1,4 @@
-package client // import "github.com/DevanshMathur19/docker-v23/client"
+package client // import "github.com/harness-community/docker-v23/client"
 
 import (
 	"context"
@@ -6,7 +6,7 @@ import (
 	"fmt"
 	"net/url"
 
-	"github.com/DevanshMathur19/docker-v23/api/types"
+	"github.com/harness-community/docker-v23/api/types"
 )
 
 // Info returns information about the docker server.

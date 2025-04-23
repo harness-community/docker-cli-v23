@@ -1,4 +1,4 @@
-package types // import "github.com/DevanshMathur19/docker-v23/api/types"
+package types // import "github.com/harness-community/docker-v23/api/types"
 
 import (
 	"encoding/json"

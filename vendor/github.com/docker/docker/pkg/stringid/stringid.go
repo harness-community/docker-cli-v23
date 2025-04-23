@@ -1,5 +1,5 @@
 // Package stringid provides helper functions for dealing with string identifiers
-package stringid // import "github.com/DevanshMathur19/docker-v23/pkg/stringid"
+package stringid // import "github.com/harness-community/docker-v23/pkg/stringid"
 
 import (
 	"crypto/rand"

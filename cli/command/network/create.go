@@ -6,12 +6,12 @@ import (
 	"net"
 	"strings"
 
-	"github.com/DevanshMathur19/docker-cli-v23/cli"
-	"github.com/DevanshMathur19/docker-cli-v23/cli/command"
-	"github.com/DevanshMathur19/docker-cli-v23/cli/command/completion"
-	"github.com/DevanshMathur19/docker-cli-v23/opts"
-	"github.com/DevanshMathur19/docker-v23/api/types"
-	"github.com/DevanshMathur19/docker-v23/api/types/network"
+	"github.com/harness-community/docker-cli-v23/cli"
+	"github.com/harness-community/docker-cli-v23/cli/command"
+	"github.com/harness-community/docker-cli-v23/cli/command/completion"
+	"github.com/harness-community/docker-cli-v23/opts"
+	"github.com/harness-community/docker-v23/api/types"
+	"github.com/harness-community/docker-v23/api/types/network"
 	"github.com/pkg/errors"
 	"github.com/spf13/cobra"
 )

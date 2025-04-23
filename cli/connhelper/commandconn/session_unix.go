@@ -9,6 +9,6 @@ import (
 
 func createSession(cmd *exec.Cmd) {
 	// for supporting ssh connection helper with ProxyCommand
-	// https://github.com/DevanshMathur19/docker-cli-v23/issues/1707
+	// https://github.com/harness-community/docker-cli-v23/issues/1707
 	cmd.SysProcAttr.Setsid = true
 }

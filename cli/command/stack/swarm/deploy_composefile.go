@@ -4,14 +4,14 @@ import (
 	"context"
 	"fmt"
 
-	"github.com/DevanshMathur19/docker-cli-v23/cli/command"
-	"github.com/DevanshMathur19/docker-cli-v23/cli/command/stack/options"
-	"github.com/DevanshMathur19/docker-cli-v23/cli/compose/convert"
-	composetypes "github.com/DevanshMathur19/docker-cli-v23/cli/compose/types"
-	"github.com/DevanshMathur19/docker-v23/api/types"
-	"github.com/DevanshMathur19/docker-v23/api/types/container"
-	"github.com/DevanshMathur19/docker-v23/api/types/swarm"
-	apiclient "github.com/DevanshMathur19/docker-v23/client"
+	"github.com/harness-community/docker-cli-v23/cli/command"
+	"github.com/harness-community/docker-cli-v23/cli/command/stack/options"
+	"github.com/harness-community/docker-cli-v23/cli/compose/convert"
+	composetypes "github.com/harness-community/docker-cli-v23/cli/compose/types"
+	"github.com/harness-community/docker-v23/api/types"
+	"github.com/harness-community/docker-v23/api/types/container"
+	"github.com/harness-community/docker-v23/api/types/swarm"
+	apiclient "github.com/harness-community/docker-v23/client"
 	"github.com/pkg/errors"
 )
 

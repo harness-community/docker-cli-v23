@@ -1,6 +1,6 @@
 package builders
 
-import "github.com/DevanshMathur19/docker-v23/api/types/volume"
+import "github.com/harness-community/docker-v23/api/types/volume"
 
 // Volume creates a volume with default values.
 // Any number of volume function builder can be passed to augment it.

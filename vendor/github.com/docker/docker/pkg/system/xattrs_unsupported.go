@@ -1,7 +1,7 @@
 //go:build !linux
 // +build !linux
 
-package system // import "github.com/DevanshMathur19/docker-v23/pkg/system"
+package system // import "github.com/harness-community/docker-v23/pkg/system"
 
 // Lgetxattr is not supported on platforms other than linux.
 func Lgetxattr(path string, attr string) ([]byte, error) {

@@ -4,9 +4,9 @@ import (
 	"context"
 	"io"
 
-	"github.com/DevanshMathur19/docker-cli-v23/cli/command"
-	"github.com/DevanshMathur19/docker-cli-v23/cli/command/service/progress"
-	"github.com/DevanshMathur19/docker-v23/pkg/jsonmessage"
+	"github.com/harness-community/docker-cli-v23/cli/command"
+	"github.com/harness-community/docker-cli-v23/cli/command/service/progress"
+	"github.com/harness-community/docker-v23/pkg/jsonmessage"
 )
 
 // waitOnService waits for the service to converge. It outputs a progress bar,

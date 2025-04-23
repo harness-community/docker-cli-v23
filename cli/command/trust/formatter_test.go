@@ -4,8 +4,8 @@ import (
 	"bytes"
 	"testing"
 
-	"github.com/DevanshMathur19/docker-cli-v23/cli/command/formatter"
-	"github.com/DevanshMathur19/docker-v23/pkg/stringid"
+	"github.com/harness-community/docker-cli-v23/cli/command/formatter"
+	"github.com/harness-community/docker-v23/pkg/stringid"
 	"gotest.tools/v3/assert"
 	is "gotest.tools/v3/assert/cmp"
 )

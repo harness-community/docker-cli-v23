@@ -1,7 +1,7 @@
 //go:build !windows
 // +build !windows
 
-package homedir // import "github.com/DevanshMathur19/docker-v23/pkg/homedir"
+package homedir // import "github.com/harness-community/docker-v23/pkg/homedir"
 
 import (
 	"os"

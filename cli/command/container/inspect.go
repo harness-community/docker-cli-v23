@@ -3,11 +3,11 @@ package container
 import (
 	"context"
 
-	"github.com/DevanshMathur19/docker-cli-v23/cli"
-	"github.com/DevanshMathur19/docker-cli-v23/cli/command"
-	"github.com/DevanshMathur19/docker-cli-v23/cli/command/completion"
-	"github.com/DevanshMathur19/docker-cli-v23/cli/command/inspect"
-	flagsHelper "github.com/DevanshMathur19/docker-cli-v23/cli/flags"
+	"github.com/harness-community/docker-cli-v23/cli"
+	"github.com/harness-community/docker-cli-v23/cli/command"
+	"github.com/harness-community/docker-cli-v23/cli/command/completion"
+	"github.com/harness-community/docker-cli-v23/cli/command/inspect"
+	flagsHelper "github.com/harness-community/docker-cli-v23/cli/flags"
 	"github.com/spf13/cobra"
 )
 

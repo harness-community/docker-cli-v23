@@ -1,8 +1,8 @@
-package types // import "github.com/DevanshMathur19/docker-v23/api/types"
+package types // import "github.com/harness-community/docker-v23/api/types"
 
 import (
-	"github.com/DevanshMathur19/docker-v23/api/types/container"
-	"github.com/DevanshMathur19/docker-v23/api/types/network"
+	"github.com/harness-community/docker-v23/api/types/container"
+	"github.com/harness-community/docker-v23/api/types/network"
 	specs "github.com/opencontainers/image-spec/specs-go/v1"
 )
 

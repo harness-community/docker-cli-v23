@@ -1,4 +1,4 @@
-package swarm // import "github.com/DevanshMathur19/docker-v23/api/types/swarm"
+package swarm // import "github.com/harness-community/docker-v23/api/types/swarm"
 
 import "os"
 

@@ -1,4 +1,4 @@
-package swarm // import "github.com/DevanshMathur19/docker-v23/api/types/swarm"
+package swarm // import "github.com/harness-community/docker-v23/api/types/swarm"
 
 // Node represents a node.
 type Node struct {
@@ -131,7 +131,7 @@ const (
 )
 
 // Topology defines the CSI topology of this node. This type is a duplicate of
-// github.com/DevanshMathur19/docker-v23/api/types.Topology. Because the type definition
+// github.com/harness-community/docker-v23/api/types.Topology. Because the type definition
 // is so simple and to avoid complicated structure or circular imports, we just
 // duplicate it here. See that type for full documentation
 type Topology struct {

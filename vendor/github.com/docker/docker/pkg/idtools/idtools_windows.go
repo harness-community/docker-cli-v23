@@ -1,9 +1,9 @@
-package idtools // import "github.com/DevanshMathur19/docker-v23/pkg/idtools"
+package idtools // import "github.com/harness-community/docker-v23/pkg/idtools"
 
 import (
 	"os"
 
-	"github.com/DevanshMathur19/docker-v23/pkg/system"
+	"github.com/harness-community/docker-v23/pkg/system"
 )
 
 const (

@@ -5,11 +5,11 @@ import (
 	"fmt"
 	"sort"
 
-	"github.com/DevanshMathur19/docker-cli-v23/cli/command"
-	"github.com/DevanshMathur19/docker-cli-v23/cli/command/formatter"
-	"github.com/DevanshMathur19/docker-cli-v23/cli/command/idresolver"
-	"github.com/DevanshMathur19/docker-cli-v23/cli/config/configfile"
-	"github.com/DevanshMathur19/docker-v23/api/types/swarm"
+	"github.com/harness-community/docker-cli-v23/cli/command"
+	"github.com/harness-community/docker-cli-v23/cli/command/formatter"
+	"github.com/harness-community/docker-cli-v23/cli/command/idresolver"
+	"github.com/harness-community/docker-cli-v23/cli/config/configfile"
+	"github.com/harness-community/docker-v23/api/types/swarm"
 	"github.com/fvbommel/sortorder"
 )
 

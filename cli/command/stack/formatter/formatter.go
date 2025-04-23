@@ -3,7 +3,7 @@ package formatter
 import (
 	"strconv"
 
-	"github.com/DevanshMathur19/docker-cli-v23/cli/command/formatter"
+	"github.com/harness-community/docker-cli-v23/cli/command/formatter"
 )
 
 const (

@@ -1,4 +1,4 @@
-package archive // import "github.com/DevanshMathur19/docker-v23/pkg/archive"
+package archive // import "github.com/harness-community/docker-v23/pkg/archive"
 
 import (
 	"archive/tar"
@@ -6,7 +6,7 @@ import (
 	"path/filepath"
 	"strings"
 
-	"github.com/DevanshMathur19/docker-v23/pkg/system"
+	"github.com/harness-community/docker-v23/pkg/system"
 	"github.com/pkg/errors"
 	"golang.org/x/sys/unix"
 )

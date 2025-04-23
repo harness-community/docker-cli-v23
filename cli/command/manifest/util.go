@@ -3,9 +3,9 @@ package manifest
 import (
 	"context"
 
-	"github.com/DevanshMathur19/docker-cli-v23/cli/command"
-	"github.com/DevanshMathur19/docker-cli-v23/cli/manifest/store"
-	"github.com/DevanshMathur19/docker-cli-v23/cli/manifest/types"
+	"github.com/harness-community/docker-cli-v23/cli/command"
+	"github.com/harness-community/docker-cli-v23/cli/manifest/store"
+	"github.com/harness-community/docker-cli-v23/cli/manifest/types"
 	"github.com/docker/distribution/reference"
 )
 

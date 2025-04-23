@@ -1,10 +1,10 @@
-package container // import "github.com/DevanshMathur19/docker-v23/api/types/container"
+package container // import "github.com/harness-community/docker-v23/api/types/container"
 
 import (
 	"io"
 	"time"
 
-	"github.com/DevanshMathur19/docker-v23/api/types/strslice"
+	"github.com/harness-community/docker-v23/api/types/strslice"
 	"github.com/docker/go-connections/nat"
 )
 

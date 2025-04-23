@@ -3,7 +3,7 @@
 //
 // This package is specifically written for use with docker build contexts, and
 // should not be used as a general-purpose utility.
-package urlutil // import "github.com/DevanshMathur19/docker-v23/builder/remotecontext/urlutil"
+package urlutil // import "github.com/harness-community/docker-v23/builder/remotecontext/urlutil"
 
 import (
 	"regexp"

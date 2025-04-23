@@ -3,8 +3,8 @@ package convert
 import (
 	"strings"
 
-	composetypes "github.com/DevanshMathur19/docker-cli-v23/cli/compose/types"
-	"github.com/DevanshMathur19/docker-v23/api/types/mount"
+	composetypes "github.com/harness-community/docker-cli-v23/cli/compose/types"
+	"github.com/harness-community/docker-v23/api/types/mount"
 	"github.com/pkg/errors"
 )
 

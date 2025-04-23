@@ -3,7 +3,7 @@ package opts
 import (
 	"testing"
 
-	"github.com/DevanshMathur19/docker-v23/api/types/container"
+	"github.com/harness-community/docker-v23/api/types/container"
 	"gotest.tools/v3/assert"
 	is "gotest.tools/v3/assert/cmp"
 )
