@@ -3,10 +3,10 @@ package registry
 import (
 	"context"
 
-	"github.com/DevanshMathur19/cli-v23/cli"
-	"github.com/DevanshMathur19/cli-v23/cli/command"
-	"github.com/DevanshMathur19/cli-v23/cli/command/formatter"
-	"github.com/DevanshMathur19/cli-v23/opts"
+	"github.com/DevanshMathur19/docker-cli-v23/cli"
+	"github.com/DevanshMathur19/docker-cli-v23/cli/command"
+	"github.com/DevanshMathur19/docker-cli-v23/cli/command/formatter"
+	"github.com/DevanshMathur19/docker-cli-v23/opts"
 	"github.com/docker/docker/api/types"
 	"github.com/docker/docker/registry"
 	"github.com/spf13/cobra"

@@ -5,7 +5,7 @@ import (
 	"io"
 	"testing"
 
-	"github.com/DevanshMathur19/cli-v23/internal/test"
+	"github.com/DevanshMathur19/docker-cli-v23/internal/test"
 	"github.com/docker/docker/errdefs"
 	"github.com/pkg/errors"
 	"gotest.tools/v3/assert"

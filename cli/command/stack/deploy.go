@@ -1,12 +1,12 @@
 package stack
 
 import (
-	"github.com/DevanshMathur19/cli-v23/cli"
-	"github.com/DevanshMathur19/cli-v23/cli/command"
-	"github.com/DevanshMathur19/cli-v23/cli/command/stack/loader"
-	"github.com/DevanshMathur19/cli-v23/cli/command/stack/options"
-	"github.com/DevanshMathur19/cli-v23/cli/command/stack/swarm"
-	composetypes "github.com/DevanshMathur19/cli-v23/cli/compose/types"
+	"github.com/DevanshMathur19/docker-cli-v23/cli"
+	"github.com/DevanshMathur19/docker-cli-v23/cli/command"
+	"github.com/DevanshMathur19/docker-cli-v23/cli/command/stack/loader"
+	"github.com/DevanshMathur19/docker-cli-v23/cli/command/stack/options"
+	"github.com/DevanshMathur19/docker-cli-v23/cli/command/stack/swarm"
+	composetypes "github.com/DevanshMathur19/docker-cli-v23/cli/compose/types"
 	"github.com/spf13/cobra"
 	"github.com/spf13/pflag"
 )

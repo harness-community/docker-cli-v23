@@ -15,9 +15,9 @@ import (
 	"testing"
 	"time"
 
-	"github.com/DevanshMathur19/cli-v23/cli/config"
-	"github.com/DevanshMathur19/cli-v23/cli/config/configfile"
-	"github.com/DevanshMathur19/cli-v23/cli/flags"
+	"github.com/DevanshMathur19/docker-cli-v23/cli/config"
+	"github.com/DevanshMathur19/docker-cli-v23/cli/config/configfile"
+	"github.com/DevanshMathur19/docker-cli-v23/cli/flags"
 	"github.com/docker/docker/api"
 	"github.com/docker/docker/api/types"
 	"github.com/docker/docker/client"
@@ -74,7 +74,7 @@ func TestNewAPIClientFromFlagsWithCustomHeaders(t *testing.T) {
 	assert.Equal(t, apiClient.DaemonHost(), host)
 	assert.Equal(t, apiClient.ClientVersion(), api.DefaultVersion)
 
-	// verify User-Agent is not appended to the configfile. see https://github.com/DevanshMathur19/cli-v23/pull/2756
+	// verify User-Agent is not appended to the configfile. see https://github.com/DevanshMathur19/docker-cli-v23/pull/2756
 	assert.DeepEqual(t, configFile.HTTPHeaders, map[string]string{"My-Header": "Custom-Value"})
 
 	expectedHeaders := map[string]string{
@@ -169,7 +169,7 @@ func TestInitializeFromClient(t *testing.T) {
 }
 
 // Makes sure we don't hang forever on the initial connection.
-// https://github.com/DevanshMathur19/cli-v23/issues/3652
+// https://github.com/DevanshMathur19/docker-cli-v23/issues/3652
 func TestInitializeFromClientHangs(t *testing.T) {
 	dir := t.TempDir()
 	socket := filepath.Join(dir, "my.sock")

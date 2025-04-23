@@ -4,7 +4,7 @@ import (
 	"context"
 	"strings"
 
-	"github.com/DevanshMathur19/cli-v23/cli/compose/convert"
+	"github.com/DevanshMathur19/docker-cli-v23/cli/compose/convert"
 	"github.com/docker/docker/api"
 	"github.com/docker/docker/api/types"
 	"github.com/docker/docker/api/types/filters"

@@ -4,9 +4,9 @@ import (
 	"io"
 	"testing"
 
-	"github.com/DevanshMathur19/cli-v23/cli/config/configfile"
-	"github.com/DevanshMathur19/cli-v23/internal/test"
-	. "github.com/DevanshMathur19/cli-v23/internal/test/builders" // Import builders to get the builder function as package function
+	"github.com/DevanshMathur19/docker-cli-v23/cli/config/configfile"
+	"github.com/DevanshMathur19/docker-cli-v23/internal/test"
+	. "github.com/DevanshMathur19/docker-cli-v23/internal/test/builders" // Import builders to get the builder function as package function
 	"github.com/docker/docker/api/types/filters"
 	"github.com/docker/docker/api/types/volume"
 	"github.com/pkg/errors"

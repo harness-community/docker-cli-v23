@@ -5,8 +5,8 @@ import (
 	"io"
 	"sort"
 
-	"github.com/DevanshMathur19/cli-v23/cli/command"
-	"github.com/DevanshMathur19/cli-v23/cli/command/formatter"
+	"github.com/DevanshMathur19/docker-cli-v23/cli/command"
+	"github.com/DevanshMathur19/docker-cli-v23/cli/command/formatter"
 	"github.com/fvbommel/sortorder"
 	"github.com/theupdateframework/notary/client"
 )

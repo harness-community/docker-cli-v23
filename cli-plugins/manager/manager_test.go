@@ -4,9 +4,9 @@ import (
 	"strings"
 	"testing"
 
-	"github.com/DevanshMathur19/cli-v23/cli/config"
-	"github.com/DevanshMathur19/cli-v23/cli/config/configfile"
-	"github.com/DevanshMathur19/cli-v23/internal/test"
+	"github.com/DevanshMathur19/docker-cli-v23/cli/config"
+	"github.com/DevanshMathur19/docker-cli-v23/cli/config/configfile"
+	"github.com/DevanshMathur19/docker-cli-v23/internal/test"
 	"github.com/spf13/cobra"
 	"gotest.tools/v3/assert"
 	"gotest.tools/v3/fs"

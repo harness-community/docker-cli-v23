@@ -7,7 +7,7 @@ import (
 	"testing"
 	"time"
 
-	"github.com/DevanshMathur19/cli-v23/cli/command/formatter"
+	"github.com/DevanshMathur19/docker-cli-v23/cli/command/formatter"
 	"github.com/docker/docker/api/types"
 	"github.com/docker/docker/api/types/container"
 	"github.com/docker/docker/api/types/swarm"

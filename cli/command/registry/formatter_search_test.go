@@ -6,8 +6,8 @@ import (
 	"strings"
 	"testing"
 
-	"github.com/DevanshMathur19/cli-v23/cli/command/formatter"
-	"github.com/DevanshMathur19/cli-v23/internal/test"
+	"github.com/DevanshMathur19/docker-cli-v23/cli/command/formatter"
+	"github.com/DevanshMathur19/docker-cli-v23/internal/test"
 	registrytypes "github.com/docker/docker/api/types/registry"
 	"gotest.tools/v3/assert"
 	is "gotest.tools/v3/assert/cmp"

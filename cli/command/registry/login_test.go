@@ -6,8 +6,8 @@ import (
 	"fmt"
 	"testing"
 
-	configtypes "github.com/DevanshMathur19/cli-v23/cli/config/types"
-	"github.com/DevanshMathur19/cli-v23/internal/test"
+	configtypes "github.com/DevanshMathur19/docker-cli-v23/cli/config/types"
+	"github.com/DevanshMathur19/docker-cli-v23/internal/test"
 	"github.com/docker/docker/api/types"
 	registrytypes "github.com/docker/docker/api/types/registry"
 	"github.com/docker/docker/client"

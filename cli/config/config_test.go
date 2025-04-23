@@ -9,9 +9,9 @@ import (
 	"strings"
 	"testing"
 
-	"github.com/DevanshMathur19/cli-v23/cli/config/configfile"
-	"github.com/DevanshMathur19/cli-v23/cli/config/credentials"
-	"github.com/DevanshMathur19/cli-v23/cli/config/types"
+	"github.com/DevanshMathur19/docker-cli-v23/cli/config/configfile"
+	"github.com/DevanshMathur19/docker-cli-v23/cli/config/credentials"
+	"github.com/DevanshMathur19/docker-cli-v23/cli/config/types"
 	"gotest.tools/v3/assert"
 	is "gotest.tools/v3/assert/cmp"
 	"gotest.tools/v3/env"

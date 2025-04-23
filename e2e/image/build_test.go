@@ -7,9 +7,9 @@ import (
 	"strings"
 	"testing"
 
-	"github.com/DevanshMathur19/cli-v23/e2e/internal/fixtures"
-	"github.com/DevanshMathur19/cli-v23/internal/test/environment"
-	"github.com/DevanshMathur19/cli-v23/internal/test/output"
+	"github.com/DevanshMathur19/docker-cli-v23/e2e/internal/fixtures"
+	"github.com/DevanshMathur19/docker-cli-v23/internal/test/environment"
+	"github.com/DevanshMathur19/docker-cli-v23/internal/test/output"
 	"gotest.tools/v3/assert"
 	is "gotest.tools/v3/assert/cmp"
 	"gotest.tools/v3/fs"

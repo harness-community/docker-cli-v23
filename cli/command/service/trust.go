@@ -4,8 +4,8 @@ import (
 	"context"
 	"encoding/hex"
 
-	"github.com/DevanshMathur19/cli-v23/cli/command"
-	"github.com/DevanshMathur19/cli-v23/cli/trust"
+	"github.com/DevanshMathur19/docker-cli-v23/cli/command"
+	"github.com/DevanshMathur19/docker-cli-v23/cli/trust"
 	"github.com/docker/distribution/reference"
 	"github.com/docker/docker/api/types/swarm"
 	"github.com/docker/docker/registry"

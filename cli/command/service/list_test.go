@@ -7,9 +7,9 @@ import (
 	"strings"
 	"testing"
 
-	"github.com/DevanshMathur19/cli-v23/internal/test"
+	"github.com/DevanshMathur19/docker-cli-v23/internal/test"
 	// Import builders to get the builder function as package function
-	. "github.com/DevanshMathur19/cli-v23/internal/test/builders"
+	. "github.com/DevanshMathur19/docker-cli-v23/internal/test/builders"
 	"github.com/docker/docker/api/types"
 	"github.com/docker/docker/api/types/swarm"
 	"github.com/docker/docker/api/types/versions"

@@ -7,9 +7,9 @@ import (
 	"sort"
 	"strings"
 
-	"github.com/DevanshMathur19/cli-v23/cli/command"
-	"github.com/DevanshMathur19/cli-v23/cli/command/image"
-	"github.com/DevanshMathur19/cli-v23/cli/trust"
+	"github.com/DevanshMathur19/docker-cli-v23/cli/command"
+	"github.com/DevanshMathur19/docker-cli-v23/cli/command/image"
+	"github.com/DevanshMathur19/docker-cli-v23/cli/trust"
 	"github.com/fvbommel/sortorder"
 	"github.com/sirupsen/logrus"
 	"github.com/theupdateframework/notary"

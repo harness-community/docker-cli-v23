@@ -4,7 +4,7 @@ import (
 	"os"
 	"testing"
 
-	"github.com/DevanshMathur19/cli-v23/cli/manifest/types"
+	"github.com/DevanshMathur19/docker-cli-v23/cli/manifest/types"
 	"github.com/docker/distribution/reference"
 	"github.com/google/go-cmp/cmp"
 	"gotest.tools/v3/assert"

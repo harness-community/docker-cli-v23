@@ -4,7 +4,7 @@ import (
 	"os"
 	"strings"
 
-	"github.com/DevanshMathur19/cli-v23/cli/compose/template"
+	"github.com/DevanshMathur19/docker-cli-v23/cli/compose/template"
 	"github.com/pkg/errors"
 )
 

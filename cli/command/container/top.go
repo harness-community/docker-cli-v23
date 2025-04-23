@@ -5,10 +5,10 @@ import (
 	"fmt"
 	"strings"
 
-	"github.com/DevanshMathur19/cli-v23/cli"
-	"github.com/DevanshMathur19/cli-v23/cli/command"
-	"github.com/DevanshMathur19/cli-v23/cli/command/completion"
-	"github.com/DevanshMathur19/cli-v23/cli/command/formatter/tabwriter"
+	"github.com/DevanshMathur19/docker-cli-v23/cli"
+	"github.com/DevanshMathur19/docker-cli-v23/cli/command"
+	"github.com/DevanshMathur19/docker-cli-v23/cli/command/completion"
+	"github.com/DevanshMathur19/docker-cli-v23/cli/command/formatter/tabwriter"
 	"github.com/spf13/cobra"
 )
 

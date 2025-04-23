@@ -3,8 +3,8 @@ package swarm
 import (
 	"context"
 
-	"github.com/DevanshMathur19/cli-v23/cli/compose/convert"
-	"github.com/DevanshMathur19/cli-v23/opts"
+	"github.com/DevanshMathur19/docker-cli-v23/cli/compose/convert"
+	"github.com/DevanshMathur19/docker-cli-v23/opts"
 	"github.com/docker/docker/api/types"
 	"github.com/docker/docker/api/types/filters"
 	"github.com/docker/docker/api/types/swarm"

@@ -9,8 +9,8 @@ import (
 	"runtime"
 	"testing"
 
-	"github.com/DevanshMathur19/cli-v23/cli/config"
-	"github.com/DevanshMathur19/cli-v23/internal/test"
+	"github.com/DevanshMathur19/docker-cli-v23/cli/config"
+	"github.com/DevanshMathur19/docker-cli-v23/internal/test"
 	"github.com/theupdateframework/notary"
 	"github.com/theupdateframework/notary/passphrase"
 	"github.com/theupdateframework/notary/storage"

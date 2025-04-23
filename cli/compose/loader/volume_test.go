@@ -4,7 +4,7 @@ import (
 	"fmt"
 	"testing"
 
-	"github.com/DevanshMathur19/cli-v23/cli/compose/types"
+	"github.com/DevanshMathur19/docker-cli-v23/cli/compose/types"
 	"gotest.tools/v3/assert"
 	is "gotest.tools/v3/assert/cmp"
 )

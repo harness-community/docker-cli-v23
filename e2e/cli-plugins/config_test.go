@@ -4,7 +4,7 @@ import (
 	"path/filepath"
 	"testing"
 
-	"github.com/DevanshMathur19/cli-v23/cli/config"
+	"github.com/DevanshMathur19/docker-cli-v23/cli/config"
 	"gotest.tools/v3/assert"
 	"gotest.tools/v3/icmd"
 )

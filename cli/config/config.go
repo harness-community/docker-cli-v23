@@ -8,9 +8,9 @@ import (
 	"strings"
 	"sync"
 
-	"github.com/DevanshMathur19/cli-v23/cli/config/configfile"
-	"github.com/DevanshMathur19/cli-v23/cli/config/credentials"
-	"github.com/DevanshMathur19/cli-v23/cli/config/types"
+	"github.com/DevanshMathur19/docker-cli-v23/cli/config/configfile"
+	"github.com/DevanshMathur19/docker-cli-v23/cli/config/credentials"
+	"github.com/DevanshMathur19/docker-cli-v23/cli/config/types"
 	"github.com/docker/docker/pkg/homedir"
 	"github.com/pkg/errors"
 )

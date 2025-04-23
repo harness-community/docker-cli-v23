@@ -3,10 +3,10 @@ package context
 import (
 	"errors"
 
-	"github.com/DevanshMathur19/cli-v23/cli/command"
-	"github.com/DevanshMathur19/cli-v23/cli/command/inspect"
-	"github.com/DevanshMathur19/cli-v23/cli/context/store"
-	flagsHelper "github.com/DevanshMathur19/cli-v23/cli/flags"
+	"github.com/DevanshMathur19/docker-cli-v23/cli/command"
+	"github.com/DevanshMathur19/docker-cli-v23/cli/command/inspect"
+	"github.com/DevanshMathur19/docker-cli-v23/cli/context/store"
+	flagsHelper "github.com/DevanshMathur19/docker-cli-v23/cli/flags"
 	"github.com/spf13/cobra"
 )
 

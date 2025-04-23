@@ -5,9 +5,9 @@ import (
 	"fmt"
 	"sort"
 
-	"github.com/DevanshMathur19/cli-v23/cli"
-	"github.com/DevanshMathur19/cli-v23/cli/command"
-	"github.com/DevanshMathur19/cli-v23/cli/command/inspect"
+	"github.com/DevanshMathur19/docker-cli-v23/cli"
+	"github.com/DevanshMathur19/docker-cli-v23/cli/command"
+	"github.com/DevanshMathur19/docker-cli-v23/cli/command/inspect"
 	"github.com/spf13/cobra"
 	"github.com/theupdateframework/notary/tuf/data"
 )

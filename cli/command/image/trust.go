@@ -8,9 +8,9 @@ import (
 	"io"
 	"sort"
 
-	"github.com/DevanshMathur19/cli-v23/cli/command"
-	"github.com/DevanshMathur19/cli-v23/cli/streams"
-	"github.com/DevanshMathur19/cli-v23/cli/trust"
+	"github.com/DevanshMathur19/docker-cli-v23/cli/command"
+	"github.com/DevanshMathur19/docker-cli-v23/cli/streams"
+	"github.com/DevanshMathur19/docker-cli-v23/cli/trust"
 	"github.com/docker/distribution/reference"
 	"github.com/docker/docker/api/types"
 	registrytypes "github.com/docker/docker/api/types/registry"

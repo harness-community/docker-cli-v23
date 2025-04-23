@@ -9,7 +9,7 @@ import (
 	"runtime"
 	"strings"
 
-	"github.com/DevanshMathur19/cli-v23/cli/streams"
+	"github.com/DevanshMathur19/docker-cli-v23/cli/streams"
 	"github.com/docker/docker/api/types/filters"
 	"github.com/moby/sys/sequential"
 	"github.com/pkg/errors"

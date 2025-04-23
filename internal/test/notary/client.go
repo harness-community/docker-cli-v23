@@ -1,7 +1,7 @@
 package notary
 
 import (
-	"github.com/DevanshMathur19/cli-v23/cli/trust"
+	"github.com/DevanshMathur19/docker-cli-v23/cli/trust"
 	"github.com/theupdateframework/notary/client"
 	"github.com/theupdateframework/notary/client/changelist"
 	"github.com/theupdateframework/notary/cryptoservice"

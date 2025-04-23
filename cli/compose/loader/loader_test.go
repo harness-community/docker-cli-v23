@@ -7,7 +7,7 @@ import (
 	"testing"
 	"time"
 
-	"github.com/DevanshMathur19/cli-v23/cli/compose/types"
+	"github.com/DevanshMathur19/docker-cli-v23/cli/compose/types"
 	"github.com/google/go-cmp/cmp/cmpopts"
 	"github.com/sirupsen/logrus"
 	"gotest.tools/v3/assert"

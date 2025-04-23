@@ -12,7 +12,7 @@ import (
 	"path/filepath"
 	"time"
 
-	"github.com/DevanshMathur19/cli-v23/cli/config"
+	"github.com/DevanshMathur19/docker-cli-v23/cli/config"
 	"github.com/docker/distribution/reference"
 	"github.com/docker/distribution/registry/client/auth"
 	"github.com/docker/distribution/registry/client/auth/challenge"

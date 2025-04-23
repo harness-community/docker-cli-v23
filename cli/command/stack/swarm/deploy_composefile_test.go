@@ -4,7 +4,7 @@ import (
 	"context"
 	"testing"
 
-	"github.com/DevanshMathur19/cli-v23/internal/test/network"
+	"github.com/DevanshMathur19/docker-cli-v23/internal/test/network"
 	"github.com/docker/docker/api/types"
 	"github.com/pkg/errors"
 	"gotest.tools/v3/assert"

@@ -5,10 +5,10 @@ import (
 	"fmt"
 	"sort"
 
-	"github.com/DevanshMathur19/cli-v23/cli/command"
-	"github.com/DevanshMathur19/cli-v23/cli/command/formatter"
-	"github.com/DevanshMathur19/cli-v23/cli/command/idresolver"
-	"github.com/DevanshMathur19/cli-v23/cli/config/configfile"
+	"github.com/DevanshMathur19/docker-cli-v23/cli/command"
+	"github.com/DevanshMathur19/docker-cli-v23/cli/command/formatter"
+	"github.com/DevanshMathur19/docker-cli-v23/cli/command/idresolver"
+	"github.com/DevanshMathur19/docker-cli-v23/cli/config/configfile"
 	"github.com/docker/docker/api/types/swarm"
 	"github.com/fvbommel/sortorder"
 )

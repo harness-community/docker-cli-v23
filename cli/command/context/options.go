@@ -5,10 +5,10 @@ import (
 	"strconv"
 	"strings"
 
-	"github.com/DevanshMathur19/cli-v23/cli/command"
-	"github.com/DevanshMathur19/cli-v23/cli/context"
-	"github.com/DevanshMathur19/cli-v23/cli/context/docker"
-	"github.com/DevanshMathur19/cli-v23/cli/context/store"
+	"github.com/DevanshMathur19/docker-cli-v23/cli/command"
+	"github.com/DevanshMathur19/docker-cli-v23/cli/context"
+	"github.com/DevanshMathur19/docker-cli-v23/cli/context/docker"
+	"github.com/DevanshMathur19/docker-cli-v23/cli/context/store"
 	"github.com/docker/docker/client"
 	"github.com/pkg/errors"
 )
